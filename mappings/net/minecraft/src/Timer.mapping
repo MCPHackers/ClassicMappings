@@ -1,9 +1,0 @@
-CLASS com/mojang/minecraft/a net/minecraft/src/Timer
-	FIELD a ticksPerSecond F
-	FIELD b lastTime J
-	FIELD c ticks I
-	FIELD d a F
-	FIELD e timeScale F
-	FIELD f passedTime F
-	METHOD <init> (F)V
-		ARG 1 ticksPerSecond

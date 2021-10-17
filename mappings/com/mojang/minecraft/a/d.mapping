@@ -1,9 +1,0 @@
-CLASS com/mojang/minecraft/a/d
-	FIELD a width I
-	FIELD b height I
-	FIELD c depth I
-	FIELD d rand Ljava/util/Random;
-	METHOD <init> (III)V
-		ARG 1 width
-		ARG 2 height
-		ARG 3 depth
