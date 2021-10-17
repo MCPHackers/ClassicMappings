@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/a/b
+	FIELD a thePlayer Lcom/mojang/minecraft/d;
+	METHOD <init> (Lcom/mojang/minecraft/d;)V
+		ARG 1 player
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 chunk1
+		ARG 2 chunk2

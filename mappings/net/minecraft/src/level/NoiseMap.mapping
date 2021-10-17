@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/a/a net/minecraft/src/level/NoiseMap
+	FIELD a rand Ljava/util/Random;
+	FIELD b levels I
+	FIELD c fuzz I
+	METHOD <init> (Ljava/util/Random;IZ)V
+		ARG 1 random
+		ARG 2 levels
+	METHOD a read (II)[I
+		ARG 1 width
+		ARG 2 height

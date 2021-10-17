@@ -1,0 +1,28 @@
+CLASS com/mojang/minecraft/d/b net/minecraft/src/character/Cube
+	FIELD a xRot F
+	FIELD b yRot F
+	FIELD c zRot F
+	FIELD d vertices [Lcom/mojang/minecraft/d/e;
+	FIELD e polygons [Lcom/mojang/minecraft/d/d;
+	FIELD f textureOffsetX I
+	FIELD g textureOffsetY I
+	FIELD h x F
+	FIELD i y F
+	FIELD j z F
+	FIELD k compiled Z
+	FIELD l list I
+	METHOD <init> (II)V
+		ARG 1 textureOffsetX
+		ARG 2 textureOffsetY
+	METHOD a render ()V
+	METHOD a setPos (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addBox (FFFIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1

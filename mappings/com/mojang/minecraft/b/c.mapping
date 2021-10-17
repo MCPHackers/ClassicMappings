@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/b/c
+	FIELD a m_Frustum [[F
+	FIELD b frustum Lcom/mojang/minecraft/b/c;
+	FIELD c projectionBuffer Ljava/nio/FloatBuffer;
+	FIELD d modelBuffer Ljava/nio/FloatBuffer;
+	FIELD e clipBuffer Ljava/nio/FloatBuffer;
+	FIELD f projection [F
+	FIELD g model [F
+	FIELD h clip [F
+	METHOD a normalizePlane ([[FI)V
+		ARG 0 frustum
+		ARG 1 side

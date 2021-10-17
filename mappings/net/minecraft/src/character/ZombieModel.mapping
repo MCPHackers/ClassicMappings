@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/d/c net/minecraft/src/character/ZombieModel
+	FIELD a head Lcom/mojang/minecraft/d/b;
+	FIELD b body Lcom/mojang/minecraft/d/b;
+	FIELD c arm0 Lcom/mojang/minecraft/d/b;
+	FIELD d arm1 Lcom/mojang/minecraft/d/b;
+	FIELD e leg0 Lcom/mojang/minecraft/d/b;
+	FIELD f leg1 Lcom/mojang/minecraft/d/b;

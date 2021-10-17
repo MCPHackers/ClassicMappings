@@ -1,0 +1,34 @@
+CLASS com/mojang/minecraft/a/f net/minecraft/src/level/LevelRenderer
+	FIELD a level Lcom/mojang/minecraft/a/g;
+	FIELD b chunks [Lcom/mojang/minecraft/a/c;
+	FIELD c surroundLists I
+	FIELD d drawDistance I
+	FIELD e sortedChunks [Lcom/mojang/minecraft/a/c;
+	FIELD f chunkX I
+	FIELD g chunkY I
+	FIELD h chunkZ I
+	FIELD i textureManager Lcom/mojang/minecraft/b/a;
+	FIELD j X F
+	FIELD k Y F
+	FIELD l Z F
+	METHOD <init> (Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;)V
+		ARG 1 level
+		ARG 2 textureManager
+	METHOD a resetChunks ()V
+	METHOD a setDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a render (Lcom/mojang/minecraft/d;I)V
+		ARG 1 thePlayer
+		ARG 2 layer
+	METHOD a renderHit (Lcom/mojang/minecraft/d;Lcom/mojang/minecraft/e;II)V
+		ARG 1 thePlayer
+		ARG 2 hitResult
+		ARG 3 mode
+		ARG 4 tileType
+	METHOD b compileSurroundingGround ()V
+	METHOD c compileSurroundingWater ()V

@@ -1,0 +1,31 @@
+CLASS com/mojang/minecraft/a/g
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d blocks [B
+	FIELD e levelListeners Ljava/util/ArrayList;
+	FIELD f rand Ljava/util/Random;
+	FIELD h unprocessed I
+	FIELD i lightDepths [I
+	FIELD j minecraft Lcom/mojang/minecraft/c;
+	METHOD <init> (Lcom/mojang/minecraft/c;III)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
+		ARG 4 depth
+	METHOD a isLit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setTile (IIII)Z
+	METHOD b save ()V
+	METHOD b getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c load ()Z
+	METHOD c calculateLightDepths (IIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1

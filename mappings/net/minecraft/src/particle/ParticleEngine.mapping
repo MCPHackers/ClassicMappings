@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/c/a net/minecraft/src/particle/ParticleEngine
+	FIELD a particles Ljava/util/List;
+	FIELD b textureManager Lcom/mojang/minecraft/b/a;
+	METHOD <init> (Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;)V
+		ARG 1 level
+		ARG 2 textureManager
+	METHOD a render (Lcom/mojang/minecraft/d;FI)V
+		ARG 1 thePlayer
+		ARG 2 a
+		ARG 3 layer
