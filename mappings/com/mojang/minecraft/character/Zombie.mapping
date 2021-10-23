@@ -1,13 +1,6 @@
-CLASS com/mojang/minecraft/d/a com/mojang/minecraft/character/Zombie
-	FIELD a rot F
-	FIELD b timeOffset F
-	FIELD c speed F
-	FIELD d rotA F
-	FIELD u zombieModel Lcom/mojang/minecraft/d/c;
-	FIELD v textureManager Lcom/mojang/minecraft/b/a;
-	METHOD <init> (Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;FFF)V
-		ARG 1 level
-		ARG 2 textureManager
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
+CLASS com/mojang/minecraft/character/Zombie com/mojang/minecraft/character/Zombie
+	FIELD a zombieModel Lcom/mojang/minecraft/character/a;
+	FIELD rotA F
+	FIELD rot F
+	FIELD speed F
+	FIELD timeOffs F

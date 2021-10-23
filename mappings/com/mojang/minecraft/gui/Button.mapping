@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/b/d com/mojang/minecraft/gui/Button
+	FIELD a x I
+	FIELD b y I
+	FIELD c w I
+	FIELD d h I
+	FIELD e msg Ljava/lang/String;
+	FIELD f id I
+	FIELD g enabled Z
+	FIELD h visible Z

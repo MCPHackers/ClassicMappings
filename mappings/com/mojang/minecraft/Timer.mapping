@@ -1,9 +1,7 @@
-CLASS com/mojang/minecraft/a com/mojang/minecraft/Timer
+CLASS com/mojang/minecraft/b com/mojang/minecraft/Timer
 	FIELD a ticksPerSecond F
 	FIELD b lastTime J
 	FIELD c ticks I
 	FIELD d a F
 	FIELD e timeScale F
-	FIELD f passedTime F
-	METHOD <init> (F)V
-		ARG 1 ticksPerSecond
+	FIELD f fps F

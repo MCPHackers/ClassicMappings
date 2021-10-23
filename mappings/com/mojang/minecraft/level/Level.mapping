@@ -1,38 +1,31 @@
-CLASS com/mojang/minecraft/a/g com/mojang/minecraft/level/Level
-	FIELD a width I
-	FIELD b height I
-	FIELD c depth I
-	FIELD d blocks [B
-	FIELD e levelListeners Ljava/util/ArrayList;
-	FIELD f random Ljava/util/Random;
-	FIELD g randValue I
-	FIELD h unprocessed I
-	FIELD i lightDepths [I
-	FIELD j minecraft Lcom/mojang/minecraft/c;
-	FIELD k coords [I
-	METHOD <init> (Lcom/mojang/minecraft/c;III)V
-		ARG 1 minecraft
-		ARG 2 width
-		ARG 3 height
-		ARG 4 depth
-	METHOD a generateLevel ()V
-	METHOD a isLit (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a setTile (IIII)Z
-	METHOD a floodFill (IIIII)J
-	METHOD a containsLiquid (Lcom/mojang/minecraft/f/a;I)Z
-	METHOD b save ()V
-	METHOD b getTile (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD b setTileNoUpdate (IIII)Z
-	METHOD c load ()Z
-	METHOD c calculateLightDepths (IIII)V
-		ARG 1 x0
-		ARG 2 y0
-		ARG 3 x1
-		ARG 4 y1
-	METHOD d neighborChanged (IIII)V
+CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
+	FIELD a levelListeners Ljava/util/ArrayList;
+	FIELD b heightMap [I
+	FIELD blocks [B
+	FIELD c random Ljava/util/Random;
+	FIELD createTime J
+	FIELD creator Ljava/lang/String;
+	FIELD d randValue I
+	FIELD depth I
+	FIELD e tickList Ljava/util/ArrayList;
+	FIELD entities Ljava/util/ArrayList;
+	FIELD height I
+	FIELD name Ljava/lang/String;
+	FIELD rotSpawn F
+	FIELD serialVersionUID J
+	FIELD tickCount I
+	FIELD unprocessed I
+	FIELD width I
+	FIELD xSpawn I
+	FIELD ySpawn I
+	FIELD zSpawn I
+	METHOD a isSolidTile (FFF)Z
+	METHOD a isInLevelBounds (III)Z
+	METHOD a notifyBlocksOfNeighborChange (IIII)V
+	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
+	METHOD b neighborChanged (IIII)V
+	METHOD containsLiquid (Lcom/mojang/minecraft/phys/AABB;I)Z
+	METHOD getBrightness (III)F
+	METHOD getCubes (Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
+	METHOD isLit (III)Z
+	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V

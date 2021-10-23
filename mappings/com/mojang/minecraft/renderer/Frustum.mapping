@@ -1,14 +1,13 @@
-CLASS com/mojang/minecraft/b/c com/mojang/minecraft/renderer/Frustum
+CLASS com/mojang/minecraft/a/d com/mojang/minecraft/renderer/Frustum
 	FIELD a m_Frustum [[F
-	FIELD b frustum Lcom/mojang/minecraft/b/c;
-	FIELD c projectionBuffer Ljava/nio/FloatBuffer;
-	FIELD d modelBuffer Ljava/nio/FloatBuffer;
-	FIELD e clipBuffer Ljava/nio/FloatBuffer;
-	FIELD f projection [F
-	FIELD g model [F
+	FIELD b frustum Lcom/mojang/minecraft/a/d;
+	FIELD c _proj Ljava/nio/FloatBuffer;
+	FIELD d _modl Ljava/nio/FloatBuffer;
+	FIELD e _clip Ljava/nio/FloatBuffer;
+	FIELD f proj [F
+	FIELD g modl [F
 	FIELD h clip [F
-	METHOD a calculateFrustum ()Lcom/mojang/minecraft/b/c;
-	METHOD a isVisible (Lcom/mojang/minecraft/f/a;)Z
+	METHOD a getFrustum ()Lcom/mojang/minecraft/a/d;
+	METHOD a cubeInFrustum (FFFFFF)Z
+	METHOD a isVisible (Lcom/mojang/minecraft/phys/AABB;)Z
 	METHOD a normalizePlane ([[FI)V
-		ARG 0 frustum
-		ARG 1 side

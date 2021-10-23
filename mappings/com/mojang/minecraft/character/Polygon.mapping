@@ -1,10 +1,2 @@
-CLASS com/mojang/minecraft/d/d com/mojang/minecraft/character/Polygon
-	FIELD a vertices [Lcom/mojang/minecraft/d/e;
-	METHOD <init> ([Lcom/mojang/minecraft/d/e;)V
-		ARG 1 vertices
-	METHOD <init> ([Lcom/mojang/minecraft/d/e;IIII)V
-		ARG 1 vertices
-		ARG 2 u0
-		ARG 3 v0
-		ARG 4 u1
-		ARG 5 v1
+CLASS com/mojang/minecraft/character/b com/mojang/minecraft/character/Polygon
+	FIELD a vertices [Lcom/mojang/minecraft/character/e;

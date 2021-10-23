@@ -1,5 +1,3 @@
-CLASS com/mojang/minecraft/b/a com/mojang/minecraft/renderer/Textures
+CLASS com/mojang/minecraft/a/a com/mojang/minecraft/renderer/Textures
 	FIELD a idMap Ljava/util/HashMap;
 	METHOD a loadTexture (Ljava/lang/String;I)I
-		ARG 1 resourceName
-		ARG 2 id

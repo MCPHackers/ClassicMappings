@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/a/e com/mojang/minecraft/renderer/DistanceSorter
+	FIELD a player Lcom/mojang/minecraft/player/Player;
