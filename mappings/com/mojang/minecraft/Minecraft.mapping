@@ -20,7 +20,7 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	FIELD S text Ljava/lang/String;
 	FIELD a width I
 	FIELD b height I
-	FIELD c session Lcom/mojang/minecraft/a;
+	FIELD c user Lcom/mojang/minecraft/a;
 	FIELD d minecraftUri Ljava/lang/String;
 	FIELD e appletMode Z
 	FIELD f pause Z
