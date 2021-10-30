@@ -1,9 +1,9 @@
-CLASS com/mojang/minecraft/character/d com/mojang/minecraft/character/Cube
+CLASS com/mojang/minecraft/e/b com/mojang/minecraft/character/Cube
 	FIELD a xRot F
 	FIELD b yRot F
 	FIELD c zRot F
-	FIELD d vertices [Lcom/mojang/minecraft/character/e;
-	FIELD e polygons [Lcom/mojang/minecraft/character/b;
+	FIELD d vertices [Lcom/mojang/minecraft/e/e;
+	FIELD e polygons [Lcom/mojang/minecraft/e/d;
 	FIELD f xTexOffs I
 	FIELD g yTexOffs I
 	FIELD h x F

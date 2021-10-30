@@ -1,0 +1,27 @@
+CLASS com/mojang/minecraft/a/c com/mojang/minecraft/level/Chunk
+	FIELD a aabb Lcom/mojang/minecraft/f/a;
+	FIELD b visible Z
+	FIELD c canRender Z
+	FIELD d updates I
+	FIELD e level Lcom/mojang/minecraft/a/f;
+	FIELD f x0 I
+	FIELD g y0 I
+	FIELD h z0 I
+	FIELD i x1 I
+	FIELD j y1 I
+	FIELD k z1 I
+	FIELD l x F
+	FIELD m y F
+	FIELD n z F
+	FIELD o dirty Z
+	FIELD p lists I
+	FIELD q t Lcom/mojang/minecraft/b/b;
+	FIELD r totalUpdates I
+	METHOD a rebuild ()V
+	METHOD a render (I)I
+	METHOD a compare (Lcom/mojang/minecraft/e;)F
+	METHOD b setDirty ()V
+	METHOD b rebuild (I)V
+	METHOD c isDirty ()Z
+	METHOD d reset ()V
+	METHOD e reset2 ()V

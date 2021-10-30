@@ -1,1 +1,10 @@
-CLASS com/mojang/minecraft/particle/Particle com/mojang/minecraft/particle/Particle
+CLASS com/mojang/minecraft/d/b com/mojang/minecraft/particle/Particle
+	FIELD a tex I
+	FIELD b uo F
+	FIELD c vo F
+	FIELD d size F
+	FIELD v xd F
+	FIELD w yd F
+	FIELD x zd F
+	FIELD y age I
+	FIELD z lifetime I

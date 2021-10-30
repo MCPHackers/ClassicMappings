@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/b/a/d com/mojang/minecraft/level/levelgen/synth/ImprovedNoise
+CLASS com/mojang/minecraft/a/b/a/d com/mojang/minecraft/level/levelgen/synth/ImprovedNoise
 	FIELD a p [I
 	METHOD a fade (D)D
 	METHOD a lerp (DDD)D

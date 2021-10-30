@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/e com/mojang/minecraft/Player
+	FIELD a keys [Z

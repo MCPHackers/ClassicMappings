@@ -1,0 +1,19 @@
+CLASS com/mojang/minecraft/a/e com/mojang/minecraft/level/LevelRenderer
+	FIELD a level Lcom/mojang/minecraft/a/f;
+	FIELD b chunks [Lcom/mojang/minecraft/a/c;
+	FIELD c surroundLists I
+	FIELD d drawDistance I
+	FIELD e sortedChunks [Lcom/mojang/minecraft/a/c;
+	FIELD f xChunks I
+	FIELD g yChunks I
+	FIELD h zChunks I
+	FIELD i textures Lcom/mojang/minecraft/b/a;
+	FIELD j dummyBuffer Ljava/nio/IntBuffer;
+	FIELD k lX F
+	FIELD l lY F
+	FIELD m lZ F
+	METHOD a allChanged ()V
+	METHOD a setDirty (IIIIII)V
+	METHOD a render (Lcom/mojang/minecraft/e;I)V
+	METHOD a renderHit (Lcom/mojang/minecraft/e;Lcom/mojang/minecraft/f;II)V
+	METHOD a renderHitOutline (Lcom/mojang/minecraft/f;I)V

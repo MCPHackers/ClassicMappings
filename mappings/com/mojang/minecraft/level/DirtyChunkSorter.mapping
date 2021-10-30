@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/a/b com/mojang/minecraft/level/DirtyChunkSorter
+	FIELD a player Lcom/mojang/minecraft/e;

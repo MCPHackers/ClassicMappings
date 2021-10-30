@@ -1,31 +1,22 @@
-CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
-	FIELD a levelListeners Ljava/util/ArrayList;
-	FIELD b heightMap [I
-	FIELD blocks [B
-	FIELD c random Ljava/util/Random;
-	FIELD createTime J
-	FIELD creator Ljava/lang/String;
-	FIELD d randValue I
-	FIELD depth I
-	FIELD e tickList Ljava/util/ArrayList;
-	FIELD entities Ljava/util/ArrayList;
-	FIELD height I
-	FIELD name Ljava/lang/String;
-	FIELD rotSpawn F
-	FIELD serialVersionUID J
-	FIELD tickCount I
-	FIELD unprocessed I
-	FIELD width I
-	FIELD xSpawn I
-	FIELD ySpawn I
-	FIELD zSpawn I
-	METHOD a isSolidTile (FFF)Z
-	METHOD a isInLevelBounds (III)Z
-	METHOD a notifyBlocksOfNeighborChange (IIII)V
-	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
-	METHOD b neighborChanged (IIII)V
-	METHOD containsLiquid (Lcom/mojang/minecraft/phys/AABB;I)Z
-	METHOD getBrightness (III)F
-	METHOD getCubes (Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
-	METHOD isLit (III)Z
-	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V
+CLASS com/mojang/minecraft/a/f com/mojang/minecraft/level/Level
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d blocks [B
+	FIELD e levelListeners Ljava/util/ArrayList;
+	FIELD f random Ljava/util/Random;
+	FIELD g randValue I
+	FIELD h name Ljava/lang/String;
+	FIELD i creator Ljava/lang/String;
+	FIELD j createTime J
+	FIELD k unprocessed I
+	FIELD l heightMap [I
+	METHOD a isLit (III)Z
+	METHOD a setTile (IIII)Z
+	METHOD a setData (III[B)V
+	METHOD a getCubes (Lcom/mojang/minecraft/f/a;)Ljava/util/ArrayList;
+	METHOD a containsLiquid (Lcom/mojang/minecraft/f/a;I)Z
+	METHOD b getTile (III)I
+	METHOD b setTileNoUpdate (IIII)Z
+	METHOD c calcLightDepths (IIII)V
+	METHOD d neighborChanged (IIII)V

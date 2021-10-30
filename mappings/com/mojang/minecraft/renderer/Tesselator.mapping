@@ -1,5 +1,5 @@
-CLASS com/mojang/minecraft/a/c com/mojang/minecraft/renderer/Tesselator
-	FIELD a instance Lcom/mojang/minecraft/a/c;
+CLASS com/mojang/minecraft/b/b com/mojang/minecraft/renderer/Tesselator
+	FIELD a instance Lcom/mojang/minecraft/b/b;
 	FIELD b buffer Ljava/nio/FloatBuffer;
 	FIELD c array [F
 	FIELD d vertices I
@@ -14,11 +14,11 @@ CLASS com/mojang/minecraft/a/c com/mojang/minecraft/renderer/Tesselator
 	FIELD m p I
 	FIELD n noColor Z
 	METHOD a end ()V
-	METHOD a color (FFF)V
+	METHOD a color (BBB)V
+	METHOD a vertex (FFF)V
 	METHOD a vertexUV (FFFFF)V
 	METHOD a color (I)V
 	METHOD a color (III)V
 	METHOD b begin ()V
-	METHOD b vertex (FFF)V
 	METHOD c noColor ()V
 	METHOD d clear ()V

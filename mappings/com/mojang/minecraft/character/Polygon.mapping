@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/character/b com/mojang/minecraft/character/Polygon
-	FIELD a vertices [Lcom/mojang/minecraft/character/e;
+CLASS com/mojang/minecraft/e/d com/mojang/minecraft/character/Polygon
+	FIELD a vertices [Lcom/mojang/minecraft/e/e;

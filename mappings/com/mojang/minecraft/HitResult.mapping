@@ -1,6 +1,6 @@
-CLASS com/mojang/minecraft/d com/mojang/minecraft/HitResult
+CLASS com/mojang/minecraft/f com/mojang/minecraft/HitResult
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	FIELD d f I
-	METHOD a distanceTo (Lcom/mojang/minecraft/player/Player;I)F
+	METHOD a distanceTo (Lcom/mojang/minecraft/e;I)F

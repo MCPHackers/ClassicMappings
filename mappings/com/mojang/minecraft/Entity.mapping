@@ -1,32 +1,31 @@
-CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
-	FIELD bbHeight F
-	FIELD bb Lcom/mojang/minecraft/phys/AABB;
-	FIELD bbWidth F
-	FIELD heightOffset F
-	FIELD horizontalCollision Z
-	FIELD level Lcom/mojang/minecraft/level/Level;
-	FIELD onGround Z
-	FIELD removed Z
-	FIELD serialVersionUID J
-	FIELD x F
-	FIELD xRot F
-	FIELD xRotI F
-	FIELD xd F
-	FIELD xo F
-	FIELD y F
-	FIELD yRot F
-	FIELD yRotI F
-	FIELD yd F
-	FIELD yo F
-	FIELD z F
-	FIELD zd F
-	FIELD zo F
-	METHOD getBrightness ()F
-	METHOD isInLava ()Z
-	METHOD isInWater ()Z
-	METHOD isLit ()Z
-	METHOD moveRelative (FFF)V
-	METHOD render (Lcom/mojang/minecraft/a/a;F)V
-	METHOD resetPos ()V
-	METHOD setLevel (Lcom/mojang/minecraft/level/Level;)V
-	METHOD setPos (FFF)V
+CLASS com/mojang/minecraft/g com/mojang/minecraft/Entity
+	FIELD a level Lcom/mojang/minecraft/a/f;
+	FIELD b bbWidth F
+	FIELD e xo F
+	FIELD f yo F
+	FIELD g zo F
+	FIELD h x F
+	FIELD i y F
+	FIELD j z F
+	FIELD k xd F
+	FIELD l yd F
+	FIELD m zd F
+	FIELD n yRot F
+	FIELD o xRot F
+	FIELD p bb Lcom/mojang/minecraft/f/a;
+	FIELD q onGround Z
+	FIELD r horizontalCollision Z
+	FIELD s removed Z
+	FIELD t heightOffset F
+	FIELD u bbHeight F
+	METHOD a tick ()V
+	METHOD a render (F)V
+	METHOD a setSize (FF)V
+	METHOD a setPos (FFF)V
+	METHOD b resetPos ()V
+	METHOD b isFree (FFF)Z
+	METHOD c isInWater ()Z
+	METHOD c move (FFF)V
+	METHOD d isInLava ()Z
+	METHOD d moveRelative (FFF)V
+	METHOD e isLit ()Z

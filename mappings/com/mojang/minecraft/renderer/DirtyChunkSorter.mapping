@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/a/b com/mojang/minecraft/renderer/DirtyChunkSorter
-	FIELD a player Lcom/mojang/minecraft/player/Player;

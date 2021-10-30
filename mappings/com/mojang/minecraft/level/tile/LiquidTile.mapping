@@ -1,5 +1,5 @@
-CLASS com/mojang/minecraft/level/a/i com/mojang/minecraft/level/tile/LiquidTile
-	FIELD w liquidType I
-	FIELD x calmTileId I
-	FIELD y tileId I
-	METHOD b checkWater (Lcom/mojang/minecraft/level/Level;III)Z
+CLASS com/mojang/minecraft/a/a/e com/mojang/minecraft/level/tile/LiquidTile
+	FIELD m liquidType I
+	FIELD n calmTileId I
+	FIELD o tileId I
+	FIELD p spreadSpeed I

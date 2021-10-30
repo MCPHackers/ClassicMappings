@@ -1,3 +1,4 @@
-CLASS com/mojang/minecraft/particle/a com/mojang/minecraft/particle/ParticleEngine
+CLASS com/mojang/minecraft/d/a com/mojang/minecraft/particle/ParticleEngine
 	FIELD a particles Ljava/util/List;
-	FIELD b textures Lcom/mojang/minecraft/a/a;
+	FIELD b textures Lcom/mojang/minecraft/b/a;
+	METHOD a render (Lcom/mojang/minecraft/e;FI)V

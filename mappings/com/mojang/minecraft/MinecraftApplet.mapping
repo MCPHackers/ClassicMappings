@@ -1,10 +1,5 @@
 CLASS com/mojang/minecraft/MinecraftApplet com/mojang/minecraft/MinecraftApplet
-	FIELD canvas Ljava/awt/Canvas;
-	FIELD minecraft Lcom/mojang/minecraft/c;
-	FIELD thread Ljava/lang/Thread;
-	METHOD destroy ()V
-	METHOD init ()V
-	METHOD start ()V
-	METHOD startGameThread ()V
-	METHOD stop ()V
-	METHOD stopGameThread ()V
+	FIELD a minecraft Lcom/mojang/minecraft/c;
+	FIELD b thread Ljava/lang/Thread;
+	FIELD c canvas Ljava/awt/Canvas;
+	METHOD a stopGameThread ()V
