@@ -54,10 +54,12 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	METHOD a setScreen (Lcom/mojang/minecraft/b/c;)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
+	METHOD a setServer (Ljava/lang/String;I)V
 	METHOD b stop ()V
 	METHOD b render (F)V
 	METHOD b generateLevel (I)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
+	METHOD b loadLevel (Ljava/lang/String;I)Z
 	METHOD c grabMouse ()V
 	METHOD c setupFog (I)V
 	METHOD c checkGlError (Ljava/lang/String;)V
