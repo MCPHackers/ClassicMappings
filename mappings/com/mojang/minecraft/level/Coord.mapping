@@ -3,3 +3,4 @@ CLASS com/mojang/minecraft/level/b com/mojang/minecraft/level/Coord
 	FIELD b y I
 	FIELD c z I
 	FIELD d id I
+	FIELD e scheduledTime I
