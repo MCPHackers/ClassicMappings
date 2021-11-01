@@ -66,4 +66,4 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	METHOD d releaseMouse ()V
 	METHOD e clickMouse ()V
 	METHOD f tick ()V
-	METHOD g isMultiplayerWorld ()Z
+	METHOD g isMultiplayer ()Z
