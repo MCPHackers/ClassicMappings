@@ -1,15 +1,14 @@
-CLASS com/mojang/minecraft/b/c com/mojang/minecraft/gui/Screen
-	FIELD a minecraft Lcom/mojang/minecraft/c;
-	FIELD b width I
-	FIELD c height I
+CLASS com/mojang/minecraft/b/d com/mojang/minecraft/gui/Screen
+	FIELD a minecraft Lcom/mojang/minecraft/d;
+	FIELD b y I
+	FIELD c w I
 	FIELD d buttons Ljava/util/List;
 	METHOD a init ()V
 	METHOD a keyPressed (CI)V
 	METHOD a render (II)V
 	METHOD a fill (IIIII)V
 	METHOD a fillGradient (IIIIII)V
-	METHOD a buttonClicked (Lcom/mojang/minecraft/b/d;)V
-	METHOD a init (Lcom/mojang/minecraft/c;II)V
+	METHOD a buttonClicked (Lcom/mojang/minecraft/b/e;)V
 	METHOD a drawCenteredString (Ljava/lang/String;III)V
 	METHOD b closeScreen ()V
 	METHOD b drawString (Ljava/lang/String;III)V

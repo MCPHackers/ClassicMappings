@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/net/b com/mojang/minecraft/net/PlayerMove
+	FIELD a xp F
+	FIELD b yp F
+	FIELD c zp F
+	FIELD d yRot F
+	FIELD e xRot F
+	FIELD f rotating Z
+	FIELD g moving Z

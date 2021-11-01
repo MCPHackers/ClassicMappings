@@ -19,7 +19,7 @@ CLASS com/mojang/minecraft/a/g com/mojang/minecraft/renderer/LevelRenderer
 	METHOD a render (III)V
 	METHOD a setDirty (IIIIII)V
 	METHOD a renderEntities (Lcom/mojang/minecraft/a/d;F)V
-	METHOD a renderHitOutline (Lcom/mojang/minecraft/d;I)V
+	METHOD a renderHitOutline (Lcom/mojang/minecraft/e;I)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a render (Lcom/mojang/minecraft/player/Player;I)I
-	METHOD a renderHit (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/d;II)V
+	METHOD a renderHit (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/e;II)V

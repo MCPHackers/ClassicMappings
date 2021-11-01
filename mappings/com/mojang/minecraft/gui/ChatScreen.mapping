@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/b com/mojang/minecraft/gui/ChatScreen
+	FIELD e typedMsg Ljava/lang/String;
+	FIELD f counter I

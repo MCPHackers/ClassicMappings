@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/h com/mojang/minecraft/gui/ErrorScreen
+	FIELD e title Ljava/lang/String;
+	FIELD f desc Ljava/lang/String;

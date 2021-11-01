@@ -1,69 +1,73 @@
-CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
-	FIELD A ticksRan I
-	FIELD B robot Ljava/awt/Robot;
-	FIELD C sendQueue Lcom/mojang/minecraft/net/b;
-	FIELD D inventory [I
-	FIELD E fogColorRed F
-	FIELD F fogColorGreen F
-	FIELD G fogColorBlue F
-	FIELD H running Z
-	FIELD I fpsString Ljava/lang/String;
-	FIELD J mouseGrabbed Z
-	FIELD K prevFrameTime I
-	FIELD L renderDistance F
-	FIELD M viewportBuffer Ljava/nio/IntBuffer;
-	FIELD N selectBuffer Ljava/nio/IntBuffer;
-	FIELD O hitResult Lcom/mojang/minecraft/d;
-	FIELD P fogColorMultiplier F
-	FIELD Q unusedInt1 I
-	FIELD R unusedInt2 I
-	FIELD S lb Ljava/nio/FloatBuffer;
-	FIELD T title Ljava/lang/String;
-	FIELD U text Ljava/lang/String;
-	FIELD a width I
-	FIELD b height I
+CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
+	FIELD A levelIo Lcom/mojang/minecraft/level/a;
+	FIELD B levelGen Lcom/mojang/minecraft/level/b/a;
+	FIELD C ticksRan I
+	FIELD D robot Ljava/awt/Robot;
+	FIELD E chatMessages Ljava/util/List;
+	FIELD F inventory [I
+	FIELD G server Ljava/lang/String;
+	FIELD H port I
+	FIELD I fogColorRed F
+	FIELD J fogColorGreen F
+	FIELD K fogColorBlue F
+	FIELD L running Z
+	FIELD M fpsString Ljava/lang/String;
+	FIELD N mouseGrabbed Z
+	FIELD O prevFrameTime I
+	FIELD P renderDistance F
+	FIELD Q viewportBuffer Ljava/nio/IntBuffer;
+	FIELD R selectBuffer Ljava/nio/IntBuffer;
+	FIELD S hitResult Lcom/mojang/minecraft/e;
+	FIELD T fogColorMultiplier F
+	FIELD U unusedInt1 I
+	FIELD V unusedInt2 I
+	FIELD W lb Ljava/nio/FloatBuffer;
+	FIELD X title Ljava/lang/String;
+	FIELD Y text Ljava/lang/String;
+	FIELD a x I
+	FIELD b y I
 	FIELD c level Lcom/mojang/minecraft/level/Level;
 	FIELD d player Lcom/mojang/minecraft/player/Player;
 	FIELD e user Lcom/mojang/minecraft/a;
 	FIELD f minecraftUri Ljava/lang/String;
 	FIELD g appletMode Z
 	FIELD h pause Z
-	FIELD i font Lcom/mojang/minecraft/b/h;
+	FIELD i font Lcom/mojang/minecraft/b/j;
 	FIELD j loadMapUser Ljava/lang/String;
 	FIELD k loadMapID I
-	FIELD l fullscreen Z
-	FIELD m fogColor0 Ljava/nio/FloatBuffer;
-	FIELD n fogColor1 Ljava/nio/FloatBuffer;
-	FIELD o timer Lcom/mojang/minecraft/b;
-	FIELD p levelRenderer Lcom/mojang/minecraft/a/g;
-	FIELD q paintTexture I
-	FIELD r particleEngine Lcom/mojang/minecraft/particle/a;
-	FIELD s parent Ljava/awt/Canvas;
-	FIELD t emptyCursor Lorg/lwjgl/input/Cursor;
-	FIELD u yMouseAxis I
-	FIELD v textures Lcom/mojang/minecraft/a/a;
-	FIELD w editMode I
-	FIELD x screen Lcom/mojang/minecraft/b/c;
-	FIELD y levelIo Lcom/mojang/minecraft/level/a;
-	FIELD z levelGen Lcom/mojang/minecraft/level/b/a;
+	FIELD l sendQueue Lcom/mojang/minecraft/net/c;
+	FIELD m hideGui Z
+	FIELD n fullscreen Z
+	FIELD o fogColor0 Ljava/nio/FloatBuffer;
+	FIELD p fogColor1 Ljava/nio/FloatBuffer;
+	FIELD q timer Lcom/mojang/minecraft/c;
+	FIELD r levelRenderer Lcom/mojang/minecraft/a/g;
+	FIELD s paintTexture I
+	FIELD t particleEngine Lcom/mojang/minecraft/particle/a;
+	FIELD u parent Ljava/awt/Canvas;
+	FIELD v emptyCursor Lorg/lwjgl/input/Cursor;
+	FIELD w yMouseAxis I
+	FIELD x textures Lcom/mojang/minecraft/a/a;
+	FIELD y editMode I
+	FIELD z screen Lcom/mojang/minecraft/b/d;
 	METHOD a destroy ()V
 	METHOD a orientCamera (F)V
 	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a setLoadingProgress (I)V
 	METHOD a saveLevel (ILjava/lang/String;)Z
-	METHOD a setScreen (Lcom/mojang/minecraft/b/c;)V
+	METHOD a setScreen (Lcom/mojang/minecraft/b/d;)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
 	METHOD a setServer (Ljava/lang/String;I)V
-	METHOD b stop ()V
 	METHOD b render (F)V
 	METHOD b generateLevel (I)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
 	METHOD b loadLevel (Ljava/lang/String;I)Z
 	METHOD c grabMouse ()V
-	METHOD c setupFog (I)V
-	METHOD c checkGlError (Ljava/lang/String;)V
-	METHOD d releaseMouse ()V
+	METHOD c addChatMessage (Ljava/lang/String;)V
+	METHOD d pauseGame ()V
+	METHOD d checkGlError (Ljava/lang/String;)V
 	METHOD e clickMouse ()V
-	METHOD f tick ()V
 	METHOD g isMultiplayer ()Z
+	METHOD i renderGui ()V
+	METHOD j setupFog ()V

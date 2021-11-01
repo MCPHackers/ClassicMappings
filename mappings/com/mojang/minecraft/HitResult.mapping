@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/d com/mojang/minecraft/HitResult
+CLASS com/mojang/minecraft/e com/mojang/minecraft/HitResult
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
