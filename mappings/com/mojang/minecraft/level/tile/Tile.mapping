@@ -35,6 +35,7 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD a getTileAABB (III)Lcom/mojang/minecraft/phys/AABB;
 	METHOD a renderFace (Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a render (Lcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/level/Level;IIII)Z
+	METHOD a getBrightness (Lcom/mojang/minecraft/level/Level;III)F
 	METHOD a cullFace (Lcom/mojang/minecraft/level/Level;IIII)Z
 	METHOD a shouldRenderFace (Lcom/mojang/minecraft/level/Level;IIIII)Z
 	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
@@ -50,4 +51,4 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD b neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
 	METHOD c mayPick ()Z
 	METHOD d getMaterial ()Lcom/mojang/minecraft/level/c/a;
-	METHOD e materialLava5 ()I
+	METHOD e getMaterialInt ()I
