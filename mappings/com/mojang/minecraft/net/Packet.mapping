@@ -1,0 +1,15 @@
+CLASS com/mojang/minecraft/net/a com/mojang/minecraft/net/Packet
+	FIELD a packets [Lcom/mojang/minecraft/net/a;
+	FIELD b LOGIN Lcom/mojang/minecraft/net/a;
+	FIELD c LOAD_LEVEL Lcom/mojang/minecraft/net/a;
+	FIELD d LOADING_PROGRESS Lcom/mojang/minecraft/net/a;
+	FIELD e LEVEL_BLOCKS Lcom/mojang/minecraft/net/a;
+	FIELD f PLACE_OR_REMOVE_BLOCK Lcom/mojang/minecraft/net/a;
+	FIELD g SET_TILE Lcom/mojang/minecraft/net/a;
+	FIELD h PLAYER_JOIN Lcom/mojang/minecraft/net/a;
+	FIELD i MOVE_PLAYER Lcom/mojang/minecraft/net/a;
+	FIELD j PLAYER_DISCONNECT Lcom/mojang/minecraft/net/a;
+	FIELD k size I
+	FIELD l packetType B
+	FIELD m packetTypes [Ljava/lang/Class;
+	FIELD n counter I

@@ -1,39 +1,41 @@
 CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	FIELD A ticksRan I
 	FIELD B robot Ljava/awt/Robot;
-	FIELD C inventory [I
-	FIELD D fogColorRed F
-	FIELD E fogColorGreen F
-	FIELD F fogColorBlue F
-	FIELD G running Z
-	FIELD H fpsString Ljava/lang/String;
-	FIELD I mouseGrabbed Z
-	FIELD J prevFrameTime I
-	FIELD K renderDistance F
-	FIELD L viewportBuffer Ljava/nio/IntBuffer;
-	FIELD M selectBuffer Ljava/nio/IntBuffer;
-	FIELD N hitResult Lcom/mojang/minecraft/d;
-	FIELD O unusedInt1 I
-	FIELD P unusedInt2 I
-	FIELD Q lb Ljava/nio/FloatBuffer;
-	FIELD R title Ljava/lang/String;
-	FIELD S text Ljava/lang/String;
+	FIELD C sendQueue Lcom/mojang/minecraft/net/b;
+	FIELD D inventory [I
+	FIELD E fogColorRed F
+	FIELD F fogColorGreen F
+	FIELD G fogColorBlue F
+	FIELD H running Z
+	FIELD I fpsString Ljava/lang/String;
+	FIELD J mouseGrabbed Z
+	FIELD K prevFrameTime I
+	FIELD L renderDistance F
+	FIELD M viewportBuffer Ljava/nio/IntBuffer;
+	FIELD N selectBuffer Ljava/nio/IntBuffer;
+	FIELD O hitResult Lcom/mojang/minecraft/d;
+	FIELD P fogColorMultiplier F
+	FIELD Q unusedInt1 I
+	FIELD R unusedInt2 I
+	FIELD S lb Ljava/nio/FloatBuffer;
+	FIELD T title Ljava/lang/String;
+	FIELD U text Ljava/lang/String;
 	FIELD a width I
 	FIELD b height I
-	FIELD c user Lcom/mojang/minecraft/a;
-	FIELD d minecraftUri Ljava/lang/String;
-	FIELD e appletMode Z
-	FIELD f pause Z
-	FIELD g font Lcom/mojang/minecraft/b/h;
-	FIELD h loadMapUser Ljava/lang/String;
-	FIELD i loadMapID I
-	FIELD j fullscreen Z
-	FIELD k fogColor0 Ljava/nio/FloatBuffer;
-	FIELD l fogColor1 Ljava/nio/FloatBuffer;
-	FIELD m timer Lcom/mojang/minecraft/b;
-	FIELD n level Lcom/mojang/minecraft/level/Level;
-	FIELD o levelRenderer Lcom/mojang/minecraft/a/g;
-	FIELD p player Lcom/mojang/minecraft/player/Player;
+	FIELD c level Lcom/mojang/minecraft/level/Level;
+	FIELD d player Lcom/mojang/minecraft/player/Player;
+	FIELD e user Lcom/mojang/minecraft/a;
+	FIELD f minecraftUri Ljava/lang/String;
+	FIELD g appletMode Z
+	FIELD h pause Z
+	FIELD i font Lcom/mojang/minecraft/b/h;
+	FIELD j loadMapUser Ljava/lang/String;
+	FIELD k loadMapID I
+	FIELD l fullscreen Z
+	FIELD m fogColor0 Ljava/nio/FloatBuffer;
+	FIELD n fogColor1 Ljava/nio/FloatBuffer;
+	FIELD o timer Lcom/mojang/minecraft/b;
+	FIELD p levelRenderer Lcom/mojang/minecraft/a/g;
 	FIELD q paintTexture I
 	FIELD r particleEngine Lcom/mojang/minecraft/particle/a;
 	FIELD s parent Ljava/awt/Canvas;
@@ -52,7 +54,6 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	METHOD a setScreen (Lcom/mojang/minecraft/b/c;)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
-	METHOD a loadLevel (Ljava/lang/String;I)Z
 	METHOD b stop ()V
 	METHOD b render (F)V
 	METHOD b generateLevel (I)V
@@ -63,3 +64,4 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	METHOD d releaseMouse ()V
 	METHOD e clickMouse ()V
 	METHOD f tick ()V
+	METHOD g isMultiplayerWorld ()Z

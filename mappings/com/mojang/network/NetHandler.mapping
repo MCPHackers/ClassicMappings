@@ -1,0 +1,12 @@
+CLASS com/mojang/a/a com/mojang/network/NetHandler
+	FIELD a connected Z
+	FIELD b socketChannel Ljava/nio/channels/SocketChannel;
+	FIELD c processedData Ljava/nio/ByteBuffer;
+	FIELD d packetBuffer Ljava/nio/ByteBuffer;
+	FIELD e clientHandler Lcom/mojang/minecraft/net/b;
+	FIELD f socket Ljava/net/Socket;
+	FIELD g stringPacket [B
+	FIELD h initialized Z
+	METHOD a disconnect ()V
+	METHOD a sendPacket (Lcom/mojang/minecraft/net/a;[Ljava/lang/Object;)V
+	METHOD b processData ()V

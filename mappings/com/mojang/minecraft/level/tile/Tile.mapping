@@ -1,6 +1,8 @@
 CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
-	FIELD A yy1 F
-	FIELD B zz1 F
+	FIELD A zz0 F
+	FIELD B xx1 F
+	FIELD C yy1 F
+	FIELD D zz1 F
 	FIELD a tiles [Lcom/mojang/minecraft/level/a/a;
 	FIELD b shouldTick [Z
 	FIELD c rock Lcom/mojang/minecraft/level/a/a;
@@ -23,17 +25,16 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	FIELD t leaf Lcom/mojang/minecraft/level/a/a;
 	FIELD u tex I
 	FIELD v id I
-	FIELD w xx0 F
-	FIELD x yy0 F
-	FIELD y zz0 F
-	FIELD z xx1 F
+	FIELD w particleGravity F
+	FIELD x tickSpeed [I
+	FIELD y xx0 F
+	FIELD z yy0 F
 	METHOD a blocksLight ()Z
 	METHOD a setShape (FFFFFF)V
-	METHOD a getTexture (I)I
+	METHOD a setTickSpeed (I)V
 	METHOD a getTileAABB (III)Lcom/mojang/minecraft/phys/AABB;
 	METHOD a renderFace (Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a render (Lcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/level/Level;IIII)Z
-	METHOD a onBlockAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD a cullFace (Lcom/mojang/minecraft/level/Level;IIII)Z
 	METHOD a shouldRenderFace (Lcom/mojang/minecraft/level/Level;IIIII)Z
 	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
@@ -42,8 +43,10 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD a renderFaceNoTexture (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
+	METHOD b getTexture (I)I
 	METHOD b getAABB (III)Lcom/mojang/minecraft/phys/AABB;
 	METHOD b renderBackFace (Lcom/mojang/minecraft/a/c;IIII)V
+	METHOD b onBlockAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD b neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
 	METHOD c mayPick ()Z
-	METHOD d getLiquidType ()I
+	METHOD d getMaterial ()Lcom/mojang/minecraft/level/c/a;

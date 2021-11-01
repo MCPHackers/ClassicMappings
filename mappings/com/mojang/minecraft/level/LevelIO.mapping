@@ -5,3 +5,4 @@ CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelIO
 	METHOD a load (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
 	METHOD a load (Ljava/lang/String;Ljava/lang/String;I)Lcom/mojang/minecraft/level/Level;
 	METHOD b loadLegacy (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
+	METHOD c loadBlocks (Ljava/io/InputStream;)[B
