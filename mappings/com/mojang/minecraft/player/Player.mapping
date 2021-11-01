@@ -1,4 +1,2 @@
 CLASS com/mojang/minecraft/player/Player com/mojang/minecraft/player/Player
 	FIELD input Lcom/mojang/minecraft/player/a;
-	METHOD releaseAllKeys ()V
-	METHOD setKey (IZ)V

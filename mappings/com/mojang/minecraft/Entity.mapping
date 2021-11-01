@@ -21,12 +21,3 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 	FIELD z F
 	FIELD zd F
 	FIELD zo F
-	METHOD getBrightness ()F
-	METHOD isInLava ()Z
-	METHOD isInWater ()Z
-	METHOD isLit ()Z
-	METHOD moveRelative (FFF)V
-	METHOD render (Lcom/mojang/minecraft/a/a;F)V
-	METHOD resetPos ()V
-	METHOD setLevel (Lcom/mojang/minecraft/level/Level;)V
-	METHOD setPos (FFF)V

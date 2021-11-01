@@ -50,3 +50,4 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD b neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
 	METHOD c mayPick ()Z
 	METHOD d getMaterial ()Lcom/mojang/minecraft/level/c/a;
+	METHOD e materialLava5 ()I

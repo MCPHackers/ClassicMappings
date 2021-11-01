@@ -7,4 +7,3 @@ CLASS com/mojang/minecraft/phys/AABB com/mojang/minecraft/phys/AABB
 	FIELD y1 F
 	FIELD z0 F
 	FIELD z1 F
-	METHOD grow (FFF)Lcom/mojang/minecraft/phys/AABB;
