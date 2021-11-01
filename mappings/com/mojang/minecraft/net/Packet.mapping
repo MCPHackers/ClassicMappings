@@ -7,7 +7,7 @@ CLASS com/mojang/minecraft/net/a com/mojang/minecraft/net/Packet
 	FIELD f PLACE_OR_REMOVE_BLOCK Lcom/mojang/minecraft/net/a;
 	FIELD g SET_TILE Lcom/mojang/minecraft/net/a;
 	FIELD h PLAYER_JOIN Lcom/mojang/minecraft/net/a;
-	FIELD i MOVE_PLAYER Lcom/mojang/minecraft/net/a;
+	FIELD i PLAYER_MOVE Lcom/mojang/minecraft/net/a;
 	FIELD j PLAYER_DISCONNECT Lcom/mojang/minecraft/net/a;
 	FIELD k size I
 	FIELD l packetType B
