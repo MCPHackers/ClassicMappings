@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/level/b/a/c com/mojang/minecraft/level/levelgen/synth/Synth
+	METHOD a getValue (DD)D

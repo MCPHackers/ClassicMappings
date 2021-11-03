@@ -1,0 +1,4 @@
+CLASS com/mojang/a/a com/mojang/network/HandlerList
+	FIELD a serverSocketChannel Ljava/nio/channels/ServerSocketChannel;
+	FIELD b minecraft Lcom/mojang/minecraft/server/MinecraftServer;
+	FIELD c handlerList Ljava/util/List;

@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelIO
+	FIELD a minecraft Lcom/mojang/minecraft/server/MinecraftServer;
+	METHOD a save (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+	METHOD a load (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;

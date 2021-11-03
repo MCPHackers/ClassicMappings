@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/server/e com/mojang/minecraft/server/HeartbeatThread
+	FIELD a urlConnection Ljava/net/HttpURLConnection;
+	FIELD b url Ljava/lang/String;

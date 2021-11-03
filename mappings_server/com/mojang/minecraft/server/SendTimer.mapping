@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/server/c com/mojang/minecraft/server/SendTimer
+	FIELD a netHandler Lcom/mojang/a/b;
+	FIELD b timer I
