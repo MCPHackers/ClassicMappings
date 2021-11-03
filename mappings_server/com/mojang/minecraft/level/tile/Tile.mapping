@@ -23,7 +23,7 @@ CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
 	METHOD a getAABB (III)Lcom/mojang/minecraft/phys/AABB;
 	METHOD a onBlockAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD a neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
-	METHOD a update (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
 	METHOD c getMaterial ()Lcom/mojang/minecraft/level/c/a;
