@@ -40,7 +40,7 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD a shouldRenderFace (Lcom/mojang/minecraft/level/Level;IIIII)Z
 	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
 		ARG 5 particleEngine
-	METHOD a update (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
 	METHOD a renderFaceNoTexture (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
