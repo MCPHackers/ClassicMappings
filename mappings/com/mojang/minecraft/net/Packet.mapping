@@ -4,7 +4,7 @@ CLASS com/mojang/minecraft/net/a com/mojang/minecraft/net/Packet
 	FIELD c LEVEL_INITIALIZE Lcom/mojang/minecraft/net/a;
 	FIELD d LEVEL_DATA_CHUNK Lcom/mojang/minecraft/net/a;
 	FIELD e LEVEL_FINALIZE Lcom/mojang/minecraft/net/a;
-	FIELD f PLACE_OR_REMOVE_BLOCK Lcom/mojang/minecraft/net/a;
+	FIELD f PLACE_OR_REMOVE_TILE Lcom/mojang/minecraft/net/a;
 	FIELD g SET_TILE Lcom/mojang/minecraft/net/a;
 	FIELD h PLAYER_JOIN Lcom/mojang/minecraft/net/a;
 	FIELD i PLAYER_MOVE Lcom/mojang/minecraft/net/a;
