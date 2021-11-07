@@ -1,5 +1,5 @@
 CLASS com/mojang/minecraft/net/a com/mojang/minecraft/net/Packet
-	FIELD a packets [Lcom/mojang/minecraft/net/a;
+	FIELD a PACKETS [Lcom/mojang/minecraft/net/a;
 	FIELD b LOGIN Lcom/mojang/minecraft/net/a;
 	FIELD c LEVEL_INITIALIZE Lcom/mojang/minecraft/net/a;
 	FIELD d LEVEL_DATA_CHUNK Lcom/mojang/minecraft/net/a;
