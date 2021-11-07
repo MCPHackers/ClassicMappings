@@ -1,6 +1,6 @@
 CLASS com/mojang/minecraft/server/d com/mojang/minecraft/server/PlayerInstance
-	FIELD a netHandler Lcom/mojang/a/b;
-	FIELD b username Ljava/lang/String;
+	FIELD a connection Lcom/mojang/a/b;
+	FIELD b name Ljava/lang/String;
 	FIELD c playerID I
 	FIELD d logger Ljava/util/logging/Logger;
 	FIELD e minecraft Lcom/mojang/minecraft/server/MinecraftServer;
