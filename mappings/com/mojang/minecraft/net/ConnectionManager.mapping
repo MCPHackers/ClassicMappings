@@ -1,5 +1,5 @@
-CLASS com/mojang/minecraft/net/b com/mojang/minecraft/net/NetClientHandler
+CLASS com/mojang/minecraft/net/b com/mojang/minecraft/net/ConnectionManager
 	FIELD a socketOutputStream Ljava/io/ByteArrayOutputStream;
-	FIELD b netHandler Lcom/mojang/a/a;
+	FIELD b connection Lcom/mojang/a/a;
 	FIELD c minecraft Lcom/mojang/minecraft/c;
 	FIELD d players Ljava/util/HashMap;
