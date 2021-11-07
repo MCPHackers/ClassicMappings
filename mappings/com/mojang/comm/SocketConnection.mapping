@@ -9,4 +9,4 @@ CLASS com/mojang/a/a com/mojang/comm/SocketConnection
 	FIELD h initialized Z
 	METHOD a disconnect ()V
 	METHOD a sendPacket (Lcom/mojang/minecraft/net/a;[Ljava/lang/Object;)V
-	METHOD b sendPacket ()V
+	METHOD b processData ()V
