@@ -1,6 +1,6 @@
 CLASS com/mojang/minecraft/a/g com/mojang/minecraft/renderer/LevelRenderer
 	FIELD a level Lcom/mojang/minecraft/level/Level;
-	FIELD b glRenderList I
+	FIELD b surroundLists I
 	FIELD c drawDistance I
 	FIELD d dirtyChunks Ljava/util/Set;
 	FIELD e sortedChunks [Lcom/mojang/minecraft/a/f;
