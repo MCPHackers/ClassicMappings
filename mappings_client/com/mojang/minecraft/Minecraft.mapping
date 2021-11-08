@@ -69,6 +69,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD d pauseGame ()V
 	METHOD d checkGlError (Ljava/lang/String;)V
 	METHOD e clickMouse ()V
+	METHOD f tick ()V
 	METHOD g isMultiplayer ()Z
 	METHOD h initGui ()V
 	METHOD i renderGui ()V
