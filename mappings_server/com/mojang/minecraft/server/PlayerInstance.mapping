@@ -23,4 +23,5 @@ CLASS com/mojang/minecraft/server/d com/mojang/minecraft/server/PlayerInstance
 	METHOD a setBlocks ([B)V
 	METHOD b sendPacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD b sendChatMessage (Ljava/lang/String;)V
-	METHOD c kickCheat (Ljava/lang/String;)V
+	METHOD c chatMessage (Ljava/lang/String;)V
+	METHOD d kickCheat (Ljava/lang/String;)V
