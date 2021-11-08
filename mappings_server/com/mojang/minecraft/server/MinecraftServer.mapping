@@ -6,7 +6,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD e motd Ljava/lang/String;
 	FIELD f admins Lcom/mojang/minecraft/server/b;
 	FIELD g banned Lcom/mojang/minecraft/server/b;
-	FIELD h handlerList Lcom/mojang/a/a;
+	FIELD h connectionList Lcom/mojang/a/a;
 	FIELD i playerInstancesMap Ljava/util/Map;
 	FIELD j playerList Ljava/util/List;
 	FIELD k sendTimers Ljava/util/List;

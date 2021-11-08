@@ -2,4 +2,4 @@ CLASS com/mojang/minecraft/level/c/a com/mojang/minecraft/level/liquid/Liquid
 	FIELD a none Lcom/mojang/minecraft/level/c/a;
 	FIELD b water Lcom/mojang/minecraft/level/c/a;
 	FIELD c lava Lcom/mojang/minecraft/level/c/a;
-	FIELD d materials [Lcom/mojang/minecraft/level/c/a;
+	FIELD d liquids [Lcom/mojang/minecraft/level/c/a;
