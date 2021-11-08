@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/net/e com/mojang/minecraft/net/NetworkSkinDownloadThread
+	FIELD a player Lcom/mojang/minecraft/net/NetworkPlayer;

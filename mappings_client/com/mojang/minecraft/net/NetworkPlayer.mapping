@@ -1,1 +1,3 @@
 CLASS com/mojang/minecraft/net/NetworkPlayer
+	FIELD a skin I
+	FIELD textures$7a7c7041 textures Lcom/mojang/minecraft/a/a;
