@@ -4,7 +4,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD C ticksRan I
 	FIELD D robot Ljava/awt/Robot;
 	FIELD E chatMessages Ljava/util/List;
-	FIELD F inventory [I
+	FIELD F creativeTiles [I
 	FIELD G server Ljava/lang/String;
 	FIELD H port I
 	FIELD I fogColorRed F
@@ -59,6 +59,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
 	METHOD a setServer (Ljava/lang/String;I)V
+	METHOD b stop ()V
 	METHOD b render (F)V
 	METHOD b generateLevel (I)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
@@ -69,5 +70,6 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD d checkGlError (Ljava/lang/String;)V
 	METHOD e clickMouse ()V
 	METHOD g isMultiplayer ()Z
+	METHOD h initGui ()V
 	METHOD i renderGui ()V
 	METHOD j setupFog ()V

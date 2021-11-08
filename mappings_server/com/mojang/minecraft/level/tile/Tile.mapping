@@ -26,5 +26,5 @@ CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
 	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
-	METHOD c getMaterial ()Lcom/mojang/minecraft/level/c/a;
-	METHOD d getMaterialInt ()I
+	METHOD c getLiquidType ()Lcom/mojang/minecraft/level/c/a;
+	METHOD d getTickDelay ()I

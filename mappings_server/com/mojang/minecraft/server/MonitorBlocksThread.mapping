@@ -1,3 +1,3 @@
 CLASS com/mojang/minecraft/server/a com/mojang/minecraft/server/MonitorBlocksThread
 	FIELD a blocks [B
-	FIELD b netServerHandler Lcom/mojang/minecraft/server/d;
+	FIELD b playerInstance Lcom/mojang/minecraft/server/d;
