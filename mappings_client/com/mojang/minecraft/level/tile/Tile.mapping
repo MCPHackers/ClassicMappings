@@ -33,6 +33,7 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD a setShape (FFFFFF)V
 	METHOD a setTickSpeed (I)V
 	METHOD a getTileAABB (III)Lcom/mojang/minecraft/phys/AABB;
+	METHOD a renderFaceNoTexture (Lcom/mojang/minecraft/Entity;Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a renderFace (Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a render (Lcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/level/Level;IIII)Z
 	METHOD a getBrightness (Lcom/mojang/minecraft/level/Level;III)F
@@ -41,7 +42,6 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD a destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
 		ARG 5 particleEngine
 	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
-	METHOD a renderFaceNoTexture (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/a/c;IIII)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
 	METHOD b getTexture (I)I
@@ -50,5 +50,5 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD b onBlockAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD b neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
 	METHOD c mayPick ()Z
-	METHOD d getMaterial ()Lcom/mojang/minecraft/level/c/a;
-	METHOD e getMaterialInt ()I
+	METHOD d getLiquidType ()Lcom/mojang/minecraft/level/c/a;
+	METHOD e getTickDelay ()I

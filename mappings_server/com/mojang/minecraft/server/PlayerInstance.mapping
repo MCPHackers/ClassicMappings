@@ -7,17 +7,20 @@ CLASS com/mojang/minecraft/server/d com/mojang/minecraft/server/PlayerInstance
 	FIELD f onlyIP Z
 	FIELD g sendingPackets Z
 	FIELD h packets Ljava/util/ArrayList;
-	FIELD i x I
-	FIELD j y I
-	FIELD k z I
-	FIELD l pitch I
-	FIELD m yaw I
-	FIELD n ticks I
-	FIELD o blocks [B
+	FIELD i currentTime J
+	FIELD j x I
+	FIELD k y I
+	FIELD l z I
+	FIELD m pitch I
+	FIELD n yaw I
+	FIELD o ticks I
+	FIELD p blocks [B
 	METHOD a handlePackets ()V
+	METHOD a changeTile (IIIII)V
 	METHOD a handlePackets (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD a handleException (Ljava/lang/Exception;)V
 	METHOD a kick (Ljava/lang/String;)V
 	METHOD a setBlocks ([B)V
 	METHOD b sendPacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD b sendChatMessage (Ljava/lang/String;)V
+	METHOD c kickCheat (Ljava/lang/String;)V

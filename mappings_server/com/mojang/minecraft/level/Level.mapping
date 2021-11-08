@@ -22,4 +22,5 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 	METHOD a isSolidTile (FFF)Z
 	METHOD a isInLevelBounds (III)Z
 	METHOD a notifyBlocksOfNeighborChange (IIII)V
+	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/server/MinecraftServer;)V
 	METHOD b neighborChanged (IIII)V

@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/server/g com/mojang/minecraft/server/MPPassCalculator
+	FIELD a salt Ljava/lang/String;
+	METHOD a calcMPass (Ljava/lang/String;)Ljava/lang/String;

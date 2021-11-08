@@ -1,5 +1,0 @@
-CLASS com/mojang/minecraft/level/c/a com/mojang/minecraft/level/material/Material
-	FIELD a air Lcom/mojang/minecraft/level/c/a;
-	FIELD b water Lcom/mojang/minecraft/level/c/a;
-	FIELD c lava Lcom/mojang/minecraft/level/c/a;
-	FIELD d materials [Lcom/mojang/minecraft/level/c/a;

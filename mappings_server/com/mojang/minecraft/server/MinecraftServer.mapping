@@ -6,16 +6,21 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD e motd Ljava/lang/String;
 	FIELD f admins Lcom/mojang/minecraft/server/b;
 	FIELD g banned Lcom/mojang/minecraft/server/b;
-	FIELD h handlerList Lcom/mojang/a/a;
-	FIELD i playerInstancesMap Ljava/util/Map;
-	FIELD j playerList Ljava/util/List;
-	FIELD k sendTimers Ljava/util/List;
-	FIELD l maxPlayers I
-	FIELD m properties Ljava/util/Properties;
-	FIELD n isPublic Z
-	FIELD o port I
-	FIELD p playerInstances [Lcom/mojang/minecraft/server/d;
-	FIELD q bannedIP Lcom/mojang/minecraft/server/b;
+	FIELD h players Lcom/mojang/minecraft/server/b;
+	FIELD i mpPassCalculator Lcom/mojang/minecraft/server/g;
+	FIELD j verifyNames Z
+	FIELD k connectionList Lcom/mojang/a/a;
+	FIELD l playerInstancesMap Ljava/util/Map;
+	FIELD m playerList Ljava/util/List;
+	FIELD n sendTimers Ljava/util/List;
+	FIELD o maxPlayers I
+	FIELD p properties Ljava/util/Properties;
+	FIELD q isPublic Z
+	FIELD r port I
+	FIELD s playerInstances [Lcom/mojang/minecraft/server/d;
+	FIELD t bannedIP Lcom/mojang/minecraft/server/b;
+	FIELD u salt Ljava/lang/String;
+	FIELD v serverURL Ljava/lang/String;
 	METHOD a getPlayerList ()Ljava/util/List;
 	METHOD a setTile (III)V
 	METHOD a disconnect (Lcom/mojang/a/b;)V
@@ -23,6 +28,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	METHOD a addTimer (Lcom/mojang/minecraft/server/d;)V
 	METHOD a sendPlayerPacket (Lcom/mojang/minecraft/server/d;Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
+	METHOD a assembleHeartbeat (Ljava/util/Map;)Ljava/lang/String;
 	METHOD b tickLevel ()V
 	METHOD b addTimer (Lcom/mojang/a/b;)V
 	METHOD b shutdown (Lcom/mojang/minecraft/server/d;)V
@@ -35,3 +41,4 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	METHOD f deop (Ljava/lang/String;)V
 	METHOD g unban (Ljava/lang/String;)V
 	METHOD h banip (Ljava/lang/String;)V
+	METHOD i getPlayerByName (Ljava/lang/String;)Lcom/mojang/minecraft/server/d;

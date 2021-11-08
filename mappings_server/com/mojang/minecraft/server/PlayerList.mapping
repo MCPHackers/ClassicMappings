@@ -2,8 +2,7 @@ CLASS com/mojang/minecraft/server/b com/mojang/minecraft/server/PlayerList
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b filename Ljava/lang/String;
 	FIELD c file Ljava/io/File;
-	FIELD d caseDependent Z
-	FIELD e players Ljava/util/Set;
+	FIELD d players Ljava/util/Set;
 	METHOD a load ()V
 	METHOD a addPlayer (Ljava/lang/String;)V
 	METHOD b save ()V

@@ -16,8 +16,6 @@ CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
 	FIELD o oreCoal Lcom/mojang/minecraft/level/a/b;
 	FIELD p log Lcom/mojang/minecraft/level/a/b;
 	FIELD q leaf Lcom/mojang/minecraft/level/a/b;
-	FIELD r id I
-	FIELD s tickSpeed [I
 	METHOD a blocksLight ()Z
 	METHOD a setTickSpeed (I)V
 	METHOD a getAABB (III)Lcom/mojang/minecraft/phys/AABB;

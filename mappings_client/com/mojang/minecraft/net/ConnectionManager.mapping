@@ -1,6 +1,9 @@
-CLASS com/mojang/minecraft/net/c com/mojang/minecraft/net/ConnectionManager
+CLASS com/mojang/minecraft/net/d com/mojang/minecraft/net/ConnectionManager
 	FIELD a levelBuffer Ljava/io/ByteArrayOutputStream;
 	FIELD b connection Lcom/mojang/a/a;
 	FIELD c minecraft Lcom/mojang/minecraft/d;
-	FIELD d players Ljava/util/HashMap;
+	FIELD d processData Z
+	FIELD e players Ljava/util/HashMap;
+	METHOD a isConnected ()Z
 	METHOD a sendBlockChange (IIIII)V
+	METHOD a disconnect (Ljava/lang/Exception;)V

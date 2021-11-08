@@ -1,1 +1,2 @@
 CLASS com/mojang/minecraft/particle/Particle com/mojang/minecraft/particle/Particle
+	METHOD render$12562f50 render (Lcom/mojang/minecraft/a/c;FFFFFF)V

@@ -1,3 +1,1 @@
 CLASS com/mojang/minecraft/level/b/a/a com/mojang/minecraft/level/levelgen/synth/Distort
-	FIELD a source Lcom/mojang/minecraft/level/b/a/c;
-	FIELD b distort Lcom/mojang/minecraft/level/b/a/c;

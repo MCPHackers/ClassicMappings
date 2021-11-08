@@ -3,7 +3,7 @@ CLASS com/mojang/a/a com/mojang/comm/SocketConnection
 	FIELD b socketChannel Ljava/nio/channels/SocketChannel;
 	FIELD c readBuffer Ljava/nio/ByteBuffer;
 	FIELD d writeBuffer Ljava/nio/ByteBuffer;
-	FIELD e manager Lcom/mojang/minecraft/net/c;
+	FIELD e manager Lcom/mojang/minecraft/net/d;
 	FIELD f socket Ljava/net/Socket;
 	FIELD g initialized Z
 	FIELD h stringPacket [B
