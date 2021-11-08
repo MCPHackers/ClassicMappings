@@ -24,8 +24,8 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD W lb Ljava/nio/FloatBuffer;
 	FIELD X title Ljava/lang/String;
 	FIELD Y text Ljava/lang/String;
-	FIELD a x I
-	FIELD b y I
+	FIELD a width I
+	FIELD b height I
 	FIELD c level Lcom/mojang/minecraft/level/Level;
 	FIELD d player Lcom/mojang/minecraft/player/Player;
 	FIELD e user Lcom/mojang/minecraft/a;
