@@ -2,7 +2,7 @@ CLASS com/mojang/minecraft/c com/mojang/minecraft/Minecraft
 	FIELD A ticksRan I
 	FIELD B robot Ljava/awt/Robot;
 	FIELD C sendQueue Lcom/mojang/minecraft/net/b;
-	FIELD D inventory [I
+	FIELD D creativeTiles [I
 	FIELD E fogColorRed F
 	FIELD F fogColorGreen F
 	FIELD G fogColorBlue F
