@@ -66,6 +66,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD c addChatMessage (Ljava/lang/String;)V
 	METHOD d clickMouse ()V
 	METHOD d checkGlError (Ljava/lang/String;)V
+	METHOD e tick ()V
 	METHOD f isMultiplayer ()Z
 	METHOD g initGui ()V
 	METHOD h renderGui ()V
