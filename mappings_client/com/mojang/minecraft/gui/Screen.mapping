@@ -9,6 +9,7 @@ CLASS com/mojang/minecraft/b/d com/mojang/minecraft/gui/Screen
 	METHOD a fill (IIIII)V
 	METHOD a fillGradient (IIIIII)V
 	METHOD a buttonClicked (Lcom/mojang/minecraft/b/e;)V
+	METHOD a init (Lcom/mojang/minecraft/d;II)V
 	METHOD a drawCenteredString (Ljava/lang/String;III)V
 	METHOD b closeScreen ()V
 	METHOD b drawString (Ljava/lang/String;III)V
