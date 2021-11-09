@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/b/a com/mojang/minecraft/gui/InGameHud
+	FIELD a messages Ljava/util/List;
+	FIELD b minecraft Lcom/mojang/minecraft/d;
+	FIELD c scaledWidth I
+	FIELD d scaledHeight I
+	METHOD a render ()V
+	METHOD a blit (IIIIII)V

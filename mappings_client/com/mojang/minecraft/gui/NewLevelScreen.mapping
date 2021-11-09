@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/b/f com/mojang/minecraft/gui/NewLevelScreen
-	FIELD e parent Lcom/mojang/minecraft/b/d;
+CLASS com/mojang/minecraft/b/g com/mojang/minecraft/gui/NewLevelScreen
+	FIELD e parent Lcom/mojang/minecraft/b/e;

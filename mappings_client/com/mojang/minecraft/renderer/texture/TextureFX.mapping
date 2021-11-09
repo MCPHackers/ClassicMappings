@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/a/a/c com/mojang/minecraft/renderer/texture/TextureFX
+	FIELD a imageData [B
+	FIELD b iconIndex I
+	METHOD a onTick ()V

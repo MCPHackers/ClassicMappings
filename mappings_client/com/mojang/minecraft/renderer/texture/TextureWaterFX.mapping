@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/a/a/b com/mojang/minecraft/renderer/texture/TextureWaterFX
+	FIELD c red [F
+	FIELD d green [F
+	FIELD e blue [F
+	FIELD f alpha [F
+	FIELD g tickCounter I

@@ -23,9 +23,4 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 	METHOD a isInLevelBounds (III)Z
 	METHOD a notifyBlocksOfNeighborChange (IIII)V
 	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
-	METHOD b neighborChanged (IIII)V
-	METHOD containsLiquid (Lcom/mojang/minecraft/phys/AABB;I)Z
-	METHOD getBrightness (III)F
-	METHOD getCubes (Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
-	METHOD isLit (III)Z
 	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V

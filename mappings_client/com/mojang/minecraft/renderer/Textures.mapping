@@ -1,5 +1,8 @@
 CLASS com/mojang/minecraft/a/a com/mojang/minecraft/renderer/Textures
 	FIELD a idBuffer Ljava/nio/IntBuffer;
-	FIELD b idMap Ljava/util/HashMap;
+	FIELD b textureBuffer Ljava/nio/ByteBuffer;
+	FIELD c textureList Ljava/util/List;
+	FIELD d idMap Ljava/util/HashMap;
+	METHOD a registerTextureFX (Lcom/mojang/minecraft/a/a/c;)V
 	METHOD a addTexture (Ljava/awt/image/BufferedImage;)I
 	METHOD a getTextureId (Ljava/lang/String;)I

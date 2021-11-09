@@ -1,34 +1,35 @@
 CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
-	FIELD A zz0 F
-	FIELD B xx1 F
-	FIELD C yy1 F
-	FIELD D zz1 F
+	FIELD A yy0 F
+	FIELD B zz0 F
+	FIELD C xx1 F
+	FIELD D yy1 F
+	FIELD E zz1 F
 	FIELD a tiles [Lcom/mojang/minecraft/level/a/a;
 	FIELD b shouldTick [Z
 	FIELD c rock Lcom/mojang/minecraft/level/a/a;
 	FIELD d grass Lcom/mojang/minecraft/level/a/a;
 	FIELD e dirt Lcom/mojang/minecraft/level/a/a;
-	FIELD f stoneBrick Lcom/mojang/minecraft/level/a/a;
-	FIELD g wood Lcom/mojang/minecraft/level/a/a;
-	FIELD h bush Lcom/mojang/minecraft/level/a/a;
-	FIELD i unbreakable Lcom/mojang/minecraft/level/a/a;
-	FIELD j water Lcom/mojang/minecraft/level/a/a;
-	FIELD k calmWater Lcom/mojang/minecraft/level/a/a;
-	FIELD l lava Lcom/mojang/minecraft/level/a/a;
-	FIELD m calmLava Lcom/mojang/minecraft/level/a/a;
-	FIELD n sand Lcom/mojang/minecraft/level/a/a;
-	FIELD o gravel Lcom/mojang/minecraft/level/a/a;
-	FIELD p oreGold Lcom/mojang/minecraft/level/a/a;
-	FIELD q oreIron Lcom/mojang/minecraft/level/a/a;
-	FIELD r oreCoal Lcom/mojang/minecraft/level/a/a;
-	FIELD s log Lcom/mojang/minecraft/level/a/a;
-	FIELD t leaf Lcom/mojang/minecraft/level/a/a;
-	FIELD u tex I
-	FIELD v id I
-	FIELD w particleGravity F
-	FIELD x tickSpeed [I
-	FIELD y xx0 F
-	FIELD z yy0 F
+	FIELD f wood Lcom/mojang/minecraft/level/a/a;
+	FIELD g bush Lcom/mojang/minecraft/level/a/a;
+	FIELD h unbreakable Lcom/mojang/minecraft/level/a/a;
+	FIELD i water Lcom/mojang/minecraft/level/a/a;
+	FIELD j calmWater Lcom/mojang/minecraft/level/a/a;
+	FIELD k lava Lcom/mojang/minecraft/level/a/a;
+	FIELD l calmLava Lcom/mojang/minecraft/level/a/a;
+	FIELD m sand Lcom/mojang/minecraft/level/a/a;
+	FIELD n gravel Lcom/mojang/minecraft/level/a/a;
+	FIELD o oreGold Lcom/mojang/minecraft/level/a/a;
+	FIELD p oreIron Lcom/mojang/minecraft/level/a/a;
+	FIELD q oreCoal Lcom/mojang/minecraft/level/a/a;
+	FIELD r log Lcom/mojang/minecraft/level/a/a;
+	FIELD s leaf Lcom/mojang/minecraft/level/a/a;
+	FIELD t sponge Lcom/mojang/minecraft/level/a/a;
+	FIELD u glass Lcom/mojang/minecraft/level/a/a;
+	FIELD v tex I
+	FIELD w id I
+	FIELD x particleGravity F
+	FIELD y tickSpeed [I
+	FIELD z xx0 F
 	METHOD a blocksLight ()Z
 	METHOD a setShape (FFFFFF)V
 	METHOD a setTickSpeed (I)V
@@ -50,5 +51,7 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/tile/Tile
 	METHOD b onBlockAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD b neighborChanged (Lcom/mojang/minecraft/level/Level;IIII)V
 	METHOD c mayPick ()Z
+	METHOD c onTileAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD d getLiquidType ()Lcom/mojang/minecraft/level/c/a;
+	METHOD d onTileRemoved (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD e getTickDelay ()I

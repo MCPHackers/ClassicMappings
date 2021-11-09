@@ -3,7 +3,8 @@ CLASS com/mojang/minecraft/net/d com/mojang/minecraft/net/ConnectionManager
 	FIELD b connection Lcom/mojang/a/a;
 	FIELD c minecraft Lcom/mojang/minecraft/d;
 	FIELD d processData Z
-	FIELD e players Ljava/util/HashMap;
+	FIELD e connected Z
+	FIELD f players Ljava/util/HashMap;
 	METHOD a isConnected ()Z
 	METHOD a sendBlockChange (IIIII)V
 	METHOD a disconnect (Ljava/lang/Exception;)V
