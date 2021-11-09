@@ -50,7 +50,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD x paintTexture I
 	FIELD y particleEngine Lcom/mojang/minecraft/particle/a;
 	FIELD z parent Ljava/awt/Canvas;
-	METHOD a grabMouse ()V
+	METHOD a destroy ()V
 	METHOD a orientCamera (F)V
 	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a setLoadingProgress (I)V
@@ -58,7 +58,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
 	METHOD a loadLevel (Ljava/lang/String;I)Z
-	METHOD b destroy ()V
+	METHOD b grabMouse ()V
 	METHOD b render (F)V
 	METHOD b generateLevel (I)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
