@@ -1,14 +1,14 @@
 CLASS com/mojang/minecraft/a/a/b com/mojang/minecraft/level/tile/Tile
 	FIELD a tiles [Lcom/mojang/minecraft/a/a/b;
 	FIELD b shouldTick [Z
-	FIELD c rock Lcom/mojang/minecraft/a/a/b;
-	FIELD d grass Lcom/mojang/minecraft/a/a/b;
-	FIELD e dirt Lcom/mojang/minecraft/a/a/b;
-	FIELD f bedrock Lcom/mojang/minecraft/a/a/b;
-	FIELD g water Lcom/mojang/minecraft/a/a/b;
-	FIELD h calmWater Lcom/mojang/minecraft/a/a/b;
-	FIELD i lava Lcom/mojang/minecraft/a/a/b;
-	FIELD j calmLava Lcom/mojang/minecraft/a/a/b;
+	FIELD c ROCK Lcom/mojang/minecraft/a/a/b;
+	FIELD d GRASS Lcom/mojang/minecraft/a/a/b;
+	FIELD e DIRT Lcom/mojang/minecraft/a/a/b;
+	FIELD f BEDROCK Lcom/mojang/minecraft/a/a/b;
+	FIELD g WATER Lcom/mojang/minecraft/a/a/b;
+	FIELD h CALMWATER Lcom/mojang/minecraft/a/a/b;
+	FIELD i LAVA Lcom/mojang/minecraft/a/a/b;
+	FIELD j CALMLAVA Lcom/mojang/minecraft/a/a/b;
 	FIELD k textureIndex I
 	FIELD l id I
 	FIELD m x0 F
