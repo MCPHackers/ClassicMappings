@@ -19,14 +19,17 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD r port I
 	FIELD s playerInstances [Lcom/mojang/minecraft/server/d;
 	FIELD t bannedIP Lcom/mojang/minecraft/server/b;
-	FIELD u salt Ljava/lang/String;
-	FIELD v serverURL Ljava/lang/String;
+	FIELD u playerList2 Ljava/util/List;
+	FIELD v salt Ljava/lang/String;
+	FIELD w serverURL Ljava/lang/String;
+	FIELD x maxConnectCount I
 	METHOD a getPlayerList ()Ljava/util/List;
 	METHOD a setTile (III)V
 	METHOD a disconnect (Lcom/mojang/a/b;)V
 	METHOD a sendPacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD a addTimer (Lcom/mojang/minecraft/server/d;)V
 	METHOD a sendPlayerPacket (Lcom/mojang/minecraft/server/d;Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
+	METHOD a parseCommand (Lcom/mojang/minecraft/server/d;Ljava/lang/String;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
 	METHOD a assembleHeartbeat (Ljava/util/Map;)Ljava/lang/String;
 	METHOD b tickLevel ()V
@@ -34,11 +37,10 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	METHOD b shutdown (Lcom/mojang/minecraft/server/d;)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
 	METHOD c socketServer ()V
-	METHOD c kick (Ljava/lang/String;)V
+	METHOD c getPlayerByName (Ljava/lang/String;)Lcom/mojang/minecraft/server/d;
 	METHOD d freePlayerSlots ()I
-	METHOD d ban (Ljava/lang/String;)V
-	METHOD e op (Ljava/lang/String;)V
-	METHOD f deop (Ljava/lang/String;)V
-	METHOD g unban (Ljava/lang/String;)V
+	METHOD d kick (Ljava/lang/String;)V
+	METHOD e ban (Ljava/lang/String;)V
+	METHOD f op (Ljava/lang/String;)V
+	METHOD g deop (Ljava/lang/String;)V
 	METHOD h banip (Ljava/lang/String;)V
-	METHOD i getPlayerByName (Ljava/lang/String;)Lcom/mojang/minecraft/server/d;

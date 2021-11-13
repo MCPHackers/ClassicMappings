@@ -4,23 +4,24 @@ CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
 	FIELD c rock Lcom/mojang/minecraft/level/a/b;
 	FIELD d grass Lcom/mojang/minecraft/level/a/b;
 	FIELD e dirt Lcom/mojang/minecraft/level/a/b;
-	FIELD f stoneBrick Lcom/mojang/minecraft/level/a/b;
-	FIELD g wood Lcom/mojang/minecraft/level/a/b;
-	FIELD h bush Lcom/mojang/minecraft/level/a/b;
-	FIELD i unbreakable Lcom/mojang/minecraft/level/a/b;
-	FIELD j water Lcom/mojang/minecraft/level/a/b;
-	FIELD k calmWater Lcom/mojang/minecraft/level/a/b;
-	FIELD l lava Lcom/mojang/minecraft/level/a/b;
-	FIELD m calmLava Lcom/mojang/minecraft/level/a/b;
-	FIELD n sand Lcom/mojang/minecraft/level/a/b;
-	FIELD o gravel Lcom/mojang/minecraft/level/a/b;
-	FIELD p oreGold Lcom/mojang/minecraft/level/a/b;
-	FIELD q oreIron Lcom/mojang/minecraft/level/a/b;
-	FIELD r oreCoal Lcom/mojang/minecraft/level/a/b;
-	FIELD s log Lcom/mojang/minecraft/level/a/b;
-	FIELD t leaf Lcom/mojang/minecraft/level/a/b;
-	FIELD u id I
-	FIELD v tickSpeed [I
+	FIELD f wood Lcom/mojang/minecraft/level/a/b;
+	FIELD g bush Lcom/mojang/minecraft/level/a/b;
+	FIELD h unbreakable Lcom/mojang/minecraft/level/a/b;
+	FIELD i water Lcom/mojang/minecraft/level/a/b;
+	FIELD j calmWater Lcom/mojang/minecraft/level/a/b;
+	FIELD k lava Lcom/mojang/minecraft/level/a/b;
+	FIELD l calmLava Lcom/mojang/minecraft/level/a/b;
+	FIELD m sand Lcom/mojang/minecraft/level/a/b;
+	FIELD n gravel Lcom/mojang/minecraft/level/a/b;
+	FIELD o oreGold Lcom/mojang/minecraft/level/a/b;
+	FIELD p oreIron Lcom/mojang/minecraft/level/a/b;
+	FIELD q oreCoal Lcom/mojang/minecraft/level/a/b;
+	FIELD r log Lcom/mojang/minecraft/level/a/b;
+	FIELD s leaf Lcom/mojang/minecraft/level/a/b;
+	FIELD t sponge Lcom/mojang/minecraft/level/a/b;
+	FIELD u glass Lcom/mojang/minecraft/level/a/b;
+	FIELD v id I
+	FIELD w tickSpeed [I
 	METHOD a blocksLight ()Z
 	METHOD a setTickSpeed (I)V
 	METHOD a getAABB (III)Lcom/mojang/minecraft/phys/AABB;
@@ -29,5 +30,7 @@ CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
 	METHOD a tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
 	METHOD a setTicking (Z)V
 	METHOD b isSolid ()Z
+	METHOD b onTileAdded (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD c getLiquidType ()Lcom/mojang/minecraft/level/c/a;
+	METHOD c onTileRemoved (Lcom/mojang/minecraft/level/Level;III)V
 	METHOD d getTickDelay ()I
