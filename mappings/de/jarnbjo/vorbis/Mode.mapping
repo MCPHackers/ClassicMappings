@@ -1,0 +1,8 @@
+CLASS de/jarnbjo/vorbis/j de/jarnbjo/vorbis/Mode
+	FIELD a blockFlag Z
+	FIELD b mapping I
+	FIELD c windowType I
+	FIELD d transformType I
+	METHOD <init> (Lde/jarnbjo/a/a/a;Lde/jarnbjo/vorbis/q;)V
+		ARG 1 source
+		ARG 2 header

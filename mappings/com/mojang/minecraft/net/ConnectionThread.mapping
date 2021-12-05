@@ -1,0 +1,14 @@
+CLASS com/mojang/minecraft/net/e com/mojang/minecraft/net/ConnectionThread
+	FIELD a ip Ljava/lang/String;
+	FIELD b port I
+	FIELD c username Ljava/lang/String;
+	FIELD d mpPass Ljava/lang/String;
+	FIELD e mc Lcom/mojang/minecraft/k;
+	FIELD f connectionManager Lcom/mojang/minecraft/net/c;
+	METHOD <init> (Lcom/mojang/minecraft/net/c;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lcom/mojang/minecraft/k;)V
+		ARG 1 manager
+		ARG 2 ipString
+		ARG 3 portInt
+		ARG 4 name
+		ARG 5 isVerified
+		ARG 6 minecraft

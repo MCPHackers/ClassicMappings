@@ -1,0 +1,22 @@
+CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/HttpOnlineSave
+	FIELD a crashScreen Lcom/mojang/minecraft/h;
+	METHOD <init> (Lcom/mojang/minecraft/h;)V
+		ARG 1 crash
+	METHOD a writeSave (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+		ARG 0 world
+		ARG 1 output
+	METHOD a saveLevelData (Lcom/mojang/minecraft/level/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
+		ARG 1 world
+		ARG 2 directory
+		ARG 3 owner
+		ARG 4 worldName
+		ARG 5 unused
+		ARG 6 worldId
+	METHOD a loadLevelData (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
+		ARG 1 input
+	METHOD a connectToOnlineSavesDirectory (Ljava/lang/String;Ljava/lang/String;I)Lcom/mojang/minecraft/level/Level;
+		ARG 1 directory
+		ARG 2 owner
+		ARG 3 worldId
+	METHOD b readSave (Ljava/io/InputStream;)[B
+		ARG 0 input

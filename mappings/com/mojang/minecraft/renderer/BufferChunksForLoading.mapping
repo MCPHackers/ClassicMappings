@@ -1,0 +1,29 @@
+CLASS com/mojang/minecraft/a/e com/mojang/minecraft/renderer/BufferChunksForLoading
+	FIELD a chunksList [[F
+	FIELD b bufferChunks Lcom/mojang/minecraft/a/e;
+	FIELD c bufferX Ljava/nio/FloatBuffer;
+	FIELD d bufferY Ljava/nio/FloatBuffer;
+	FIELD e bufferZ Ljava/nio/FloatBuffer;
+	FIELD f xFlChunk [F
+	FIELD g yFlChunk [F
+	FIELD h zFlChunk [F
+	METHOD a bufferList ()Lcom/mojang/minecraft/a/e;
+	METHOD a doesChunkExist (FFFFFF)Z
+		ARG 1 xFl1
+		ARG 2 yFl1
+		ARG 3 zFl1
+		ARG 4 xFl2
+		ARG 5 yFl2
+		ARG 6 zFl2
+	METHOD a radius (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 aabb
+	METHOD a SILVEROS_method0039_a ([[FI)V
+		ARG 0 arg
+		ARG 1 id
+	METHOD b getList (FFFFFF)Z
+		ARG 1 xFl1
+		ARG 2 yFl1
+		ARG 3 zFl1
+		ARG 4 xFl2
+		ARG 5 yFl2
+		ARG 6 zFl2

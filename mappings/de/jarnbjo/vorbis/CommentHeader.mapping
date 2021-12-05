@@ -1,0 +1,6 @@
+CLASS de/jarnbjo/vorbis/d de/jarnbjo/vorbis/CommentHeader
+	FIELD a comments Ljava/util/HashMap;
+	METHOD <init> (Lde/jarnbjo/a/a/a;)V
+		ARG 1 source
+	METHOD a getString (Lde/jarnbjo/a/a/a;)Ljava/lang/String;
+		ARG 0 source

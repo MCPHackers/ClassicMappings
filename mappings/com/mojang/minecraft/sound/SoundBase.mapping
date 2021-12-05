@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/b/b com/mojang/minecraft/sound/SoundBase
+	FIELD a pitch [S
+	FIELD b volume F
+	METHOD <init> ([SF)V
+		ARG 1 arg
+		ARG 2 vol

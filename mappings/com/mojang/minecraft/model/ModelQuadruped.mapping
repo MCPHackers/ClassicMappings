@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/d/k com/mojang/minecraft/model/ModelQuadruped
+	FIELD b head Lcom/mojang/minecraft/d/j;
+	FIELD c body Lcom/mojang/minecraft/d/j;
+	FIELD d leg1 Lcom/mojang/minecraft/d/j;
+	FIELD e leg2 Lcom/mojang/minecraft/d/j;
+	FIELD f leg3 Lcom/mojang/minecraft/d/j;
+	FIELD g leg4 Lcom/mojang/minecraft/d/j;

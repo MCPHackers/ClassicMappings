@@ -1,0 +1,9 @@
+CLASS de/jarnbjo/vorbis/q de/jarnbjo/vorbis/SetupHeader
+	FIELD a codeBooks [Lde/jarnbjo/vorbis/m;
+	FIELD b floors [Lde/jarnbjo/vorbis/g;
+	FIELD c residues [Lde/jarnbjo/vorbis/n;
+	FIELD d mappings [Lde/jarnbjo/vorbis/i;
+	FIELD e modes [Lde/jarnbjo/vorbis/j;
+	METHOD <init> (Lde/jarnbjo/vorbis/b;Lde/jarnbjo/a/a/a;)V
+		ARG 1 vorbis
+		ARG 2 source

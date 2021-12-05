@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/player/b com/mojang/minecraft/player/LocalPlayer
+	FIELD h playerInput Lcom/mojang/minecraft/player/a;
+	METHOD <init> (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/player/a;)V
+		ARG 1 thePlayer
+		ARG 2 inputMovement

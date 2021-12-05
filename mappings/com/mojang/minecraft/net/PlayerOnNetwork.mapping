@@ -1,0 +1,40 @@
+CLASS com/mojang/minecraft/net/NetworkPlayer com/mojang/minecraft/net/PlayerOnNetwork
+	FIELD a skin I
+	FIELD displayName Ljava/lang/String;
+	FIELD minecraft mc Lcom/mojang/minecraft/k;
+	FIELD moveQueue moveThisQueue Ljava/util/List;
+	FIELD name Ljava/lang/String;
+	FIELD newTexture getNewTexture Ljava/awt/image/BufferedImage;
+	FIELD textures$7a7c7041 textures Lcom/mojang/minecraft/a/a;
+	FIELD xp posX I
+	FIELD yp posY I
+	FIELD zp posZ I
+	METHOD <init> (Lcom/mojang/minecraft/k;ILjava/lang/String;IIIFF)V
+		ARG 1 minecraft
+		ARG 2 id1
+		ARG 3 username
+		ARG 4 xCoord
+		ARG 5 yCoord
+		ARG 6 zCoord
+		ARG 7 yRot
+		ARG 8 xRot
+	METHOD clear ()V
+	METHOD queue queue3 (BBB)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD queue queue1 (BBBFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 yRot
+		ARG 5 xRot
+	METHOD queue queue2 (FF)V
+		ARG 1 yRot
+		ARG 2 xRot
+	METHOD teleport teleportToPos (SSSFF)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 yRot
+		ARG 5 xRot

@@ -1,0 +1,197 @@
+CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/GameLevel
+	FIELD a blockArray Ljava/util/ArrayList;
+	FIELD b mapArray [I
+	FIELD blockMap Lcom/mojang/minecraft/level/b;
+	FIELD blocks [B
+	FIELD c rand Ljava/util/Random;
+	FIELD cloudColor I
+	FIELD createTime creationTime J
+	FIELD creator levelCreator Ljava/lang/String;
+	FIELD d SILVEROS_field0001_d I
+	FIELD depth I
+	FIELD e array Ljava/util/ArrayList;
+	FIELD fogColor I
+	FIELD height I
+	FIELD name levelName Ljava/lang/String;
+	FIELD networkMode Z
+	FIELD particleEngine$13e306ae particleEngine Lcom/mojang/minecraft/particle/a;
+	FIELD player thePlayer Lcom/mojang/minecraft/Entity;
+	FIELD rendererContext$5cd64a7f mc Lcom/mojang/minecraft/k;
+	FIELD rotSpawn rotationSpawn F
+	FIELD serialVersionUID J
+	FIELD skyColor I
+	FIELD tickCount tickCounter I
+	FIELD unprocessed I
+	FIELD waterLevel I
+	FIELD width I
+	FIELD xSpawn xSpawnPos I
+	FIELD ySpawn ySpawnPos I
+	FIELD zSpawn zSpawnPos I
+	METHOD a isBlockOpaque (FFF)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a levelSize (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a setTileWithNotify (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id
+	METHOD addEntity addEntityToWorld (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob
+	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
+		ARG 1 worldRenderer
+	METHOD addToTickNextTick addToTickForNextTick (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 tickCount
+	METHOD calcLightDepths calculateLightDepths (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 lightValue
+	METHOD clip clipBB (Lcom/mojang/minecraft/d/b;Lcom/mojang/minecraft/d/b;)Lcom/mojang/minecraft/f;
+		ARG 1 vec3dMIN
+		ARG 2 vec3dMAX
+	METHOD containsAnyLiquid containsAnyLiquidTile (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 aabb
+	METHOD containsLiquid containsLiquidTile (Lcom/mojang/minecraft/phys/AABB;Lcom/mojang/minecraft/level/b/a;)Z
+		ARG 1 aabb
+		ARG 2 liquid
+	METHOD copyBlocks copyBlockTiles ()[B
+	METHOD explode startExplosion (Lcom/mojang/minecraft/Entity;FFFF)V
+		ARG 1 mob
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 radius
+	METHOD findEntities findEntitiesInWorld (Lcom/mojang/minecraft/Entity;Lcom/mojang/minecraft/phys/AABB;)Ljava/util/List;
+		ARG 1 mob
+		ARG 2 aabb
+	METHOD findSpawn findSpawnPos ()V
+	METHOD getBrightness getEntityBrightness (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD getCaveness getCavenessFromWorld (FFFF)F
+		ARG 1 f1
+		ARG 2 f2
+		ARG 3 f3
+		ARG 4 f4
+	METHOD getCaveness getCavenessFromWorld (Lcom/mojang/minecraft/Entity;)F
+		ARG 1 mob
+	METHOD getCubes getCubesFromBB (Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
+		ARG 1 aabb
+	METHOD getGroundLevel getGroundLevelFromWorld ()F
+	METHOD getHighestTile getHighestTilePos (II)I
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD getLiquid getLiquidTile (III)Lcom/mojang/minecraft/level/b/a;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD getPlayer getPlayerObject ()Lcom/mojang/minecraft/Entity;
+	METHOD getTile getTileId (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD getWaterLevel getWaterLevelFromWorld ()F
+	METHOD initTransient init ()V
+	METHOD isFree (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 aabb
+	METHOD isLightBlocker isBlockingLight (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD isLit isBlockLit (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD isSolid isSolidTile (FFFF)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockFace
+	METHOD isSolidTile isSolidBlockTile (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD isWater isWaterTile (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD maybeGrowTree potentiallyGrowTree (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD netSetTile (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id
+	METHOD netSetTileNoNeighborChange netSetTileWithNoNeighboringChange (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id
+	METHOD playSound playSoundEffect (Ljava/lang/String;FFFFF)V
+		ARG 1 soundName
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD playSound playSoundAtEntity (Ljava/lang/String;Lcom/mojang/minecraft/Entity;FF)V
+		ARG 1 soundName
+		ARG 2 mob
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD removeEntity removeEntityFromWorld (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob
+	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V
+		ARG 1 worldRenderer
+	METHOD setData setDataForLevelSize (III[B)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 array
+	METHOD setNetworkMode (Z)V
+		ARG 1 isNetworkingOnline
+	METHOD setSpawnPos setSpawnPosition (IIIF)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 rotation
+	METHOD setTile setTileId (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id
+	METHOD setTileNoNeighborChange setTileWithNoNeighboringChange (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockid
+	METHOD setTileNoUpdate setTileWithNoUpdate (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id
+	METHOD swap swapBlocks (IIIIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 xPrevious
+		ARG 5 yPrevious
+		ARG 6 zPrevious
+	METHOD tick tickWorld ()V
+	METHOD tickEntities tickEntitiesForFun ()V
+	METHOD updateNeighborsAt updateNeighborsAtLocation (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 id

@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/a com/mojang/minecraft/User
+	FIELD a name Ljava/lang/String;
+	FIELD b sessionId Ljava/lang/String;
+	FIELD c mpPass Ljava/lang/String;
+	FIELD d allowedSessionBlocks Ljava/util/List;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 username
+		ARG 2 session

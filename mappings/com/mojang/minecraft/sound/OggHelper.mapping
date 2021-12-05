@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/d com/mojang/minecraft/sound/OggHelper
+	METHOD a soundGrabber (Ljava/net/URL;)Lcom/mojang/minecraft/b/b;
+		ARG 0 url

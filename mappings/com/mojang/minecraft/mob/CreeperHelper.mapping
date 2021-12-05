@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/mob/a com/mojang/minecraft/mob/CreeperHelper
+	FIELD h creeperMob Lcom/mojang/minecraft/mob/Creeper;
+	METHOD <init> (Lcom/mojang/minecraft/mob/Creeper;)V
+		ARG 1 creeper

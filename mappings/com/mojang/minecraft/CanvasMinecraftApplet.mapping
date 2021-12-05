@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/b com/mojang/minecraft/CanvasMinecraftApplet
-	FIELD a applet Lcom/mojang/minecraft/MinecraftApplet;
-	METHOD <init> (Lcom/mojang/minecraft/MinecraftApplet;)V
-		ARG 1 applet
-	METHOD addNotify ()V
-	METHOD removeNotify ()V

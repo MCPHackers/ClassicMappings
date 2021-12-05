@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/mob/Zombie com/mojang/minecraft/mob/ZombieEntity
+	FIELD a model Lcom/mojang/minecraft/d/h;

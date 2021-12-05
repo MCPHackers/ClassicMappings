@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/b/l com/mojang/minecraft/sound/ThreadOggStream
+	FIELD a soundHelper Lcom/mojang/minecraft/b/m;
+	METHOD <init> (Lcom/mojang/minecraft/b/m;)V
+		ARG 1 helper

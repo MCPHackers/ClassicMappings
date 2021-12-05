@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/mob/QuadrupedMob com/mojang/minecraft/mob/QuadrupedMobEntity
+	FIELD a model Lcom/mojang/minecraft/d/k;
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;FFF)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 3 posY
+		ARG 4 posZ
