@@ -1,8 +1,0 @@
-CLASS de/jarnbjo/vorbis/r de/jarnbjo/vorbis/IdentificationHeader
-	FIELD a channels I
-	FIELD b sampleRate I
-	FIELD c blockSize0 I
-	FIELD d blockSize1 I
-	FIELD e mdct [Lde/jarnbjo/vorbis/l;
-	METHOD <init> (Lde/jarnbjo/a/a/a;)V
-		ARG 1 source

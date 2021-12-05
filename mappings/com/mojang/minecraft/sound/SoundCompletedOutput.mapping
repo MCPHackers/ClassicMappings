@@ -1,9 +1,0 @@
-CLASS com/mojang/minecraft/b/g com/mojang/minecraft/sound/SoundCompletedOutput
-	FIELD a aideSoundPitch Lcom/mojang/minecraft/b/h;
-	FIELD b soundPosition Lcom/mojang/minecraft/b/f;
-	FIELD c x F
-	FIELD d z F
-	FIELD e SILVEROS_field0003_e [S
-	METHOD <init> (Lcom/mojang/minecraft/b/h;Lcom/mojang/minecraft/b/f;)V
-		ARG 1 pitchAide
-		ARG 2 soundPos

@@ -1,9 +1,0 @@
-CLASS com/mojang/minecraft/a/h com/mojang/minecraft/renderer/ItemRenderHelper
-	FIELD a mc Lcom/mojang/minecraft/k;
-	FIELD b block Lcom/mojang/minecraft/level/tile/a;
-	FIELD c equippedProgress F
-	FIELD d prevEquippedProgress F
-	FIELD e equippedItemSlot I
-	FIELD f itemRenderBool Z
-	METHOD <init> (Lcom/mojang/minecraft/k;)V
-		ARG 1 mc

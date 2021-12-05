@@ -1,8 +1,0 @@
-CLASS com/mojang/minecraft/b/j com/mojang/minecraft/PlaySound
-	FIELD b soundAccess Lcom/mojang/minecraft/b/b;
-	FIELD c SILVEROS_field0002_b F
-	FIELD d vol F
-	METHOD <init> (Lcom/mojang/minecraft/b/b;FF)V
-		ARG 1 soundAcc
-		ARG 2 volume
-		ARG 3 pitch

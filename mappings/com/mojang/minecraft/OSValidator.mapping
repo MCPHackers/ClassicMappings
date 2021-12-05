@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/g com/mojang/minecraft/OSValidator
-	FIELD a osValues [I

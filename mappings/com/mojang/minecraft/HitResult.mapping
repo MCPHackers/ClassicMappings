@@ -1,0 +1,14 @@
+CLASS com/mojang/minecraft/e com/mojang/minecraft/HitResult
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d f I
+	METHOD <init> (IIIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 f
+	METHOD a distanceTo (Lcom/mojang/minecraft/d;I)F
+		ARG 1 player
+		ARG 2 editMode

@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/level/tile/l com/mojang/minecraft/level/tile/PlantTile
-	METHOD a renderPlant (Lcom/mojang/minecraft/a/c;FFF)V
-		ARG 1 renderMethod
-		ARG 2 f1
-		ARG 3 f2
-		ARG 4 f3

@@ -1,7 +1,0 @@
-CLASS com/mojang/minecraft/a/a/c com/mojang/minecraft/renderer/tile/TextureFX
-	FIELD a imageData [B
-	FIELD b iconIndex I
-	FIELD c anaglyphEnabled Z
-	METHOD <init> (I)V
-		ARG 1 texture
-	METHOD a onTick ()V
