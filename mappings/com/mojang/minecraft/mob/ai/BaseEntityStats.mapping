@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/mob/a/a com/mojang/minecraft/mob/ai/BaseEntityStats
+	FIELD a health I
+	METHOD a onDeath ()V
+	METHOD a onUpdate (Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/mob/Mob;)V
+		ARG 1 world
+		ARG 2 mob

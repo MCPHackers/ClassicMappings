@@ -1,0 +1,2 @@
+CLASS de/jarnbjo/ogg/b de/jarnbjo/ogg/PhysicalOggStream
+	METHOD a getOggPage ()Lde/jarnbjo/ogg/c;

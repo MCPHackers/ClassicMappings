@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/c/a com/mojang/minecraft/gui/NameLevelScreen
+	FIELD g parent Lcom/mojang/minecraft/c/n;
+	FIELD h title Ljava/lang/String;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l counter I
+	METHOD <init> (Lcom/mojang/minecraft/c/n;Ljava/lang/String;I)V
+		ARG 1 guiScreen
+		ARG 2 levelName
+		ARG 3 levelId

@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/a/a/a com/mojang/minecraft/renderer/tile/TextureLavaFX
+	FIELD d red [F
+	FIELD e green [F
+	FIELD f blue [F
+	FIELD g alpha [F

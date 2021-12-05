@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/d/d com/mojang/minecraft/model/ModelCreeper
+	FIELD b head Lcom/mojang/minecraft/d/j;
+	FIELD c unusedCreeperHeadwear Lcom/mojang/minecraft/d/j;
+	FIELD d body Lcom/mojang/minecraft/d/j;
+	FIELD e leg1 Lcom/mojang/minecraft/d/j;
+	FIELD f leg2 Lcom/mojang/minecraft/d/j;
+	FIELD g leg3 Lcom/mojang/minecraft/d/j;
+	FIELD h leg4 Lcom/mojang/minecraft/d/j;

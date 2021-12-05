@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/item/a com/mojang/minecraft/item/SignModel
+	FIELD a signBoard Lcom/mojang/minecraft/d/j;
+	FIELD b signStick Lcom/mojang/minecraft/d/j;

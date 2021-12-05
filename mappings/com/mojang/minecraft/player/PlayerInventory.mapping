@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/player/d com/mojang/minecraft/player/PlayerInventory
+	FIELD a mainInventory [I
+	FIELD b itemsStacked [I
+	FIELD c unused [I
+	FIELD d currentItem I
+	METHOD a getCurrentItem ()I
+	METHOD a getInventorySlotContainItem (I)I
+		ARG 1 item
+	METHOD b setInventorySlot (I)V
+		ARG 1 item
+	METHOD c consumeInventoryItem (I)Z
+		ARG 1 item

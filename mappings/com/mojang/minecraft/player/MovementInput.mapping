@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/player/a com/mojang/minecraft/player/MovementInput
+	FIELD a moveStrafe F
+	FIELD b moveForward F
+	FIELD c jump Z
+	METHOD a updatePlayerMoveState ()V
+	METHOD a setKey (IZ)V
+		ARG 1 keyValue
+		ARG 2 isSet
+	METHOD b releaseAllKeys ()V

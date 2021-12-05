@@ -1,10 +1,12 @@
-CLASS com/mojang/minecraft/c/a com/mojang/minecraft/particle/ParticleEngine
+CLASS com/mojang/minecraft/particle/a com/mojang/minecraft/particle/ParticleEngine
 	FIELD a particles Ljava/util/List;
-	FIELD b textureManager Lcom/mojang/minecraft/b/a;
-	METHOD <init> (Lcom/mojang/minecraft/a/g;Lcom/mojang/minecraft/b/a;)V
-		ARG 1 level
-		ARG 2 textureManager
-	METHOD a render (Lcom/mojang/minecraft/d;FI)V
-		ARG 1 thePlayer
-		ARG 2 a
-		ARG 3 layer
+	FIELD b textures Lcom/mojang/minecraft/a/a;
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/a/a;)V
+		ARG 1 world
+		ARG 2 texture
+	METHOD a particleUpdate ()V
+	METHOD a addParticle (Lcom/mojang/minecraft/particle/Particle;)V
+		ARG 1 particlefx
+	METHOD a render (Lcom/mojang/minecraft/player/Player;F)V
+		ARG 1 player
+		ARG 2 brightness

@@ -1,0 +1,10 @@
+CLASS de/jarnbjo/ogg/a de/jarnbjo/ogg/LogicalOggStreamImpl
+	FIELD a source Lde/jarnbjo/ogg/b;
+	FIELD b pageNumberMapping Ljava/util/ArrayList;
+	FIELD c pageIndex I
+	FIELD d currentPage Lde/jarnbjo/ogg/c;
+	FIELD e currentSegmentIndex I
+	METHOD <init> (Lde/jarnbjo/ogg/b;)V
+		ARG 1 source
+	METHOD a getNextOggPacket ()[B
+	METHOD b getNextOggPage ()Lde/jarnbjo/ogg/c;

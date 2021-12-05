@@ -1,0 +1,14 @@
+CLASS com/mojang/minecraft/mob/a/c com/mojang/minecraft/mob/ai/LivingAI
+	FIELD b rand Ljava/util/Random;
+	FIELD c posX F
+	FIELD d posZ F
+	FIELD e level Lcom/mojang/minecraft/level/Level;
+	FIELD f mob Lcom/mojang/minecraft/mob/Mob;
+	FIELD g hasAttacked Z
+	FIELD h posY F
+	FIELD i attackStrength I
+	METHOD a objective (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob
+	METHOD b updatePlayerActionState ()V
+	METHOD b onMobContact (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob

@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/mob/Creeper com/mojang/minecraft/mob/CreeperEntity
+	FIELD a model Lcom/mojang/minecraft/d/a;
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;FFF)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 3 posY
+		ARG 4 posZ

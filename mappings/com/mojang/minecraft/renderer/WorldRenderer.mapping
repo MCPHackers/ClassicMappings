@@ -1,0 +1,43 @@
+CLASS com/mojang/minecraft/a/g com/mojang/minecraft/renderer/WorldRenderer
+	FIELD a level Lcom/mojang/minecraft/level/Level;
+	FIELD b texture Lcom/mojang/minecraft/a/a;
+	FIELD c glAddToCallList I
+	FIELD d tileBuffer Ljava/nio/IntBuffer;
+	FIELD e entitySet Ljava/util/Set;
+	FIELD f helperArr2 [Lcom/mojang/minecraft/a/i;
+	FIELD g renderList I
+	FIELD h damagePartialTime F
+	FIELD i helperArr1 [Lcom/mojang/minecraft/a/i;
+	FIELD j posX I
+	FIELD k posY I
+	FIELD l posZ I
+	FIELD m glGeneratedList I
+	FIELD n mc Lcom/mojang/minecraft/k;
+	FIELD o someIntArray [I
+	FIELD p posXPlus F
+	FIELD q posYPlus F
+	FIELD r posZPlus F
+	METHOD <init> (Lcom/mojang/minecraft/k;Lcom/mojang/minecraft/a/a;)V
+		ARG 1 mc
+		ARG 2 texture
+	METHOD a startRender ()V
+	METHOD a renderClouds (F)V
+		ARG 1 color
+	METHOD a renderBasicTile (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a renderAsChunks (IIIIII)V
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 z1
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+	METHOD a renderBasicOutside (Lcom/mojang/minecraft/f;II)V
+		ARG 1 mop
+		ARG 2 x
+		ARG 3 z
+	METHOD a renderForPlayer (Lcom/mojang/minecraft/player/Player;I)I
+		ARG 1 player
+		ARG 2 id
