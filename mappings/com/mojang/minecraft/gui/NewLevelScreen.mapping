@@ -1,4 +1,0 @@
-CLASS com/mojang/minecraft/c/f com/mojang/minecraft/gui/NewLevelScreen
-	FIELD g parent Lcom/mojang/minecraft/c/n;
-	METHOD <init> (Lcom/mojang/minecraft/c/n;)V
-		ARG 1 guiScreen

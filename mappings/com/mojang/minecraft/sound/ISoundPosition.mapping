@@ -1,3 +1,0 @@
-CLASS com/mojang/minecraft/b/f com/mojang/minecraft/sound/ISoundPosition
-	METHOD a xPos ()F
-	METHOD b zPos ()F

@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/c/i com/mojang/minecraft/gui/ErrorScreen
-	FIELD g title Ljava/lang/String;
-	FIELD h desc Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 titleText
-		ARG 2 description

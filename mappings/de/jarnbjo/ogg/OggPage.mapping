@@ -1,7 +1,0 @@
-CLASS de/jarnbjo/ogg/c de/jarnbjo/ogg/OggPage
-	FIELD a isContinued Z
-	FIELD b isEos Z
-	FIELD d getSegmentOffsets [I
-	FIELD e getSegmentLengths [I
-	FIELD f getSegmentTable [B
-	FIELD g getData [B

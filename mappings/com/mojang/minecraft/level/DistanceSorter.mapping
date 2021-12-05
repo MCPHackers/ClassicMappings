@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/a/e com/mojang/minecraft/level/DistanceSorter
+	FIELD a thePlayer Lcom/mojang/minecraft/d;
+	METHOD <init> (Lcom/mojang/minecraft/d;)V
+		ARG 1 player

@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/level/a/a/b com/mojang/minecraft/level/generator/noisegen/NoiseGeneratorOctaves
-	FIELD a generatorCollection [Lcom/mojang/minecraft/level/a/a/d;
-	FIELD b octaves I
-	METHOD <init> (Ljava/util/Random;I)V
-		ARG 1 rand
-		ARG 2 octaves

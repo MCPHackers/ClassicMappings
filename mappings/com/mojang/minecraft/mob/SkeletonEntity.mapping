@@ -1,2 +1,0 @@
-CLASS com/mojang/minecraft/mob/Skeleton com/mojang/minecraft/mob/SkeletonEntity
-	FIELD a model Lcom/mojang/minecraft/d/h;

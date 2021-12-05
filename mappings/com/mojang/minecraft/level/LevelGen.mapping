@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/a/d com/mojang/minecraft/level/LevelGen
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d random Ljava/util/Random;
+	METHOD <init> (III)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 depth

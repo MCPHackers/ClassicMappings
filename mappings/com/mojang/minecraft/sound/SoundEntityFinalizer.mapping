@@ -1,9 +1,0 @@
-CLASS com/mojang/minecraft/b/n com/mojang/minecraft/sound/SoundEntityFinalizer
-	FIELD a x F
-	FIELD b y F
-	FIELD c z F
-	METHOD <init> (FFFLcom/mojang/minecraft/Entity;)V
-		ARG 1 posX
-		ARG 2 posY
-		ARG 3 posZ
-		ARG 4 mob

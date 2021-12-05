@@ -1,4 +1,0 @@
-CLASS com/mojang/minecraft/a/f com/mojang/minecraft/renderer/ChunkDistanceComparator2
-	FIELD a player Lcom/mojang/minecraft/player/Player;
-	METHOD <init> (Lcom/mojang/minecraft/player/Player;)V
-		ARG 1 player

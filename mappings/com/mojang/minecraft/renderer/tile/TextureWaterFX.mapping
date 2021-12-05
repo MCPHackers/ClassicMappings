@@ -1,6 +1,0 @@
-CLASS com/mojang/minecraft/a/a/b com/mojang/minecraft/renderer/tile/TextureWaterFX
-	FIELD d red [F
-	FIELD e green [F
-	FIELD f blue [F
-	FIELD g alpha [F
-	FIELD h tickCounter I

@@ -1,5 +1,0 @@
-CLASS com/mojang/minecraft/b/c com/mojang/minecraft/sound/EntitySoundEffect
-	FIELD a entity Lcom/mojang/minecraft/Entity;
-	METHOD <init> (Lcom/mojang/minecraft/Entity;Lcom/mojang/minecraft/Entity;)V
-		ARG 1 mob1
-		ARG 2 mob2

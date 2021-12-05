@@ -1,7 +1,0 @@
-CLASS com/mojang/minecraft/e/b com/mojang/minecraft/playercontroller/PlayerControllerSurvival
-	FIELD c curBlockX I
-	FIELD d curBlockY I
-	FIELD e curBlockZ I
-	FIELD f curBlockDamage I
-	FIELD g prevBlockDamage I
-	FIELD h blockHitWait I

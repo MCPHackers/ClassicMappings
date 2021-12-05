@@ -1,5 +1,97 @@
-CLASS com/mojang/minecraft/level/tile/Tile
-	CLASS SoundType SoundChoice
-		FIELD name soundName Ljava/lang/String;
-		METHOD getPitch getEntityPitch ()F
-		METHOD getVolume getEntityVolume ()F
+CLASS com/mojang/minecraft/a/a/b com/mojang/minecraft/level/tile/Tile
+	FIELD a tiles [Lcom/mojang/minecraft/a/a/b;
+	FIELD b shouldTick [Z
+	FIELD c rock Lcom/mojang/minecraft/a/a/b;
+	FIELD d grass Lcom/mojang/minecraft/a/a/b;
+	FIELD e dirt Lcom/mojang/minecraft/a/a/b;
+	FIELD f bedrock Lcom/mojang/minecraft/a/a/b;
+	FIELD g water Lcom/mojang/minecraft/a/a/b;
+	FIELD h calmWater Lcom/mojang/minecraft/a/a/b;
+	FIELD i lava Lcom/mojang/minecraft/a/a/b;
+	FIELD j calmLava Lcom/mojang/minecraft/a/a/b;
+	FIELD k textureIndex I
+	FIELD l id I
+	FIELD m x0 F
+	FIELD n y0 F
+	FIELD o z0 F
+	FIELD p x1 F
+	FIELD q y1 F
+	FIELD r z1 F
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 textureIndex
+	METHOD a blocksLight ()Z
+	METHOD a setShape (FFFFFF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a getTexture (I)I
+		ARG 1 face
+	METHOD a getBoundingBox (III)Lcom/mojang/minecraft/f/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a shouldRenderFace (Lcom/mojang/minecraft/a/g;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 layer
+	METHOD a destroy (Lcom/mojang/minecraft/a/g;IIILcom/mojang/minecraft/c/a;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 particleEngine
+	METHOD a tick (Lcom/mojang/minecraft/a/g;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a renderFace (Lcom/mojang/minecraft/b/b;IIII)V
+		ARG 1 tesselator
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a render (Lcom/mojang/minecraft/b/b;Lcom/mojang/minecraft/a/g;IIII)V
+		ARG 1 tesselator
+		ARG 2 level
+		ARG 3 layer
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD a renderFaceNoTexture (Lcom/mojang/minecraft/d;Lcom/mojang/minecraft/b/b;IIII)V
+		ARG 0 player
+		ARG 1 tesselator
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a setTicking (Z)V
+		ARG 1 ticks
+	METHOD b isSolid ()Z
+	METHOD b getBlockBoundingBox (III)Lcom/mojang/minecraft/f/a;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b neighborChanged (Lcom/mojang/minecraft/a/g;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+	METHOD b renderBackFace (Lcom/mojang/minecraft/b/b;IIII)V
+		ARG 1 tesselator
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD c mayPick ()Z
+	METHOD d getLiquidType ()I
