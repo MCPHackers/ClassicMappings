@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/level/a/a/c com/mojang/minecraft/level/generator/noisegen/NoiseGeneratorCombined
+	FIELD a noiseGenerator1 Lcom/mojang/minecraft/level/a/a/a;
+	FIELD b noiseGenerator2 Lcom/mojang/minecraft/level/a/a/a;
+	METHOD <init> (Lcom/mojang/minecraft/level/a/a/a;Lcom/mojang/minecraft/level/a/a/a;)V
+		ARG 1 noiseGen1
+		ARG 2 noiseGen2

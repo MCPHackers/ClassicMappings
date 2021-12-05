@@ -1,19 +1,26 @@
-CLASS com/mojang/minecraft/e/a com/mojang/minecraft/gui/Font
+CLASS com/mojang/minecraft/c/k com/mojang/minecraft/gui/Font
 	FIELD a charWidths [I
 	FIELD b fontTexture I
-	METHOD <init> (Ljava/lang/String;Lcom/mojang/minecraft/b/a;)V
-		ARG 1 resourceName
-		ARG 2 textureManager
-	METHOD a getWidth (Ljava/lang/String;)I
-		ARG 1 string
+	METHOD <init> (Ljava/lang/String;Lcom/mojang/minecraft/a/a;)V
+		ARG 1 texString
+		ARG 2 texture
+	METHOD a width (Ljava/lang/String;)I
+		ARG 1 stringWidth
 	METHOD a drawShadow (Ljava/lang/String;III)V
-		ARG 1 string
+		ARG 1 thisString
 		ARG 2 x
 		ARG 3 y
-		ARG 4 color
+		ARG 4 id
 	METHOD a draw (Ljava/lang/String;IIIZ)V
-		ARG 1 string
+		ARG 1 thisString
 		ARG 2 x
 		ARG 3 y
-		ARG 4 color
-		ARG 5 darken
+		ARG 4 id
+		ARG 5 hasShadow
+	METHOD b length (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 stringLength
+	METHOD b draw (Ljava/lang/String;III)V
+		ARG 1 thisString
+		ARG 2 x
+		ARG 3 y
+		ARG 4 id

@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/b/m com/mojang/minecraft/sound/SoundHelper
+	FIELD a buffer1 Ljava/nio/ByteBuffer;
+	FIELD b buffer2 Ljava/nio/ByteBuffer;
+	FIELD c buffer4 Ljava/nio/ByteBuffer;
+	FIELD d helper Lde/jarnbjo/vorbis/b;
+	FIELD e data Lcom/mojang/minecraft/b/i;
+	FIELD f bool1 Z
+	FIELD g bool2 Z
+	FIELD h buffer3 Ljava/nio/ByteBuffer;
+	METHOD <init> (Lcom/mojang/minecraft/b/i;Ljava/net/URL;)V
+		ARG 1 data
+		ARG 2 url

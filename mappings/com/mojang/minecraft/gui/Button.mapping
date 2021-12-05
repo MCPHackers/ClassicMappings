@@ -1,0 +1,21 @@
+CLASS com/mojang/minecraft/c/d com/mojang/minecraft/gui/Button
+	FIELD a width I
+	FIELD b height I
+	FIELD c xPos I
+	FIELD d yPos I
+	FIELD e displayString Ljava/lang/String;
+	FIELD f id I
+	FIELD g enabled Z
+	FIELD h enabledSecondary Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 buttonid
+		ARG 2 buttonX
+		ARG 3 buttonY
+		ARG 4 buttonWidth
+		ARG 5 buttonHeight
+		ARG 6 buttontext
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 buttonid
+		ARG 2 buttonX
+		ARG 3 buttonY
+		ARG 4 buttontext

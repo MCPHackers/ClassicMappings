@@ -1,0 +1,32 @@
+CLASS com/mojang/minecraft/particle/Particle com/mojang/minecraft/particle/ParticleEntity
+	FIELD age entityAge I
+	FIELD gravity particleGravity F
+	FIELD lifetime maxAge I
+	FIELD size entitySize F
+	FIELD tex texture I
+	FIELD uo xTexture F
+	FIELD vo yTexture F
+	FIELD xd motionX F
+	FIELD yd motionY F
+	FIELD zd motionZ F
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;FFFFFFLcom/mojang/minecraft/level/tile/a;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 xM
+		ARG 6 yM
+		ARG 7 zM
+		ARG 8 block
+	METHOD render$12562f50 render (Lcom/mojang/minecraft/a/c;FFFFFF)V
+		ARG 1 tessellator
+		ARG 2 minX
+		ARG 3 maxX
+		ARG 4 minY
+		ARG 5 maxY
+		ARG 6 minZ
+		ARG 7 maxZ
+	METHOD scale particleScale (F)Lcom/mojang/minecraft/particle/Particle;
+		ARG 1 scaled
+	METHOD setPower setMotionPower (F)Lcom/mojang/minecraft/particle/Particle;
+		ARG 1 strafe

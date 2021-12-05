@@ -1,0 +1,19 @@
+CLASS com/mojang/minecraft/player/Player com/mojang/minecraft/player/PlayerEntity
+	FIELD MAX_HEALTH I
+	FIELD bob F
+	FIELD input playerInput Lcom/mojang/minecraft/player/a;
+	FIELD inventory Lcom/mojang/minecraft/player/d;
+	FIELD oBob F
+	FIELD score I
+	FIELD userType B
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/player/a;)V
+		ARG 1 world
+		ARG 2 inputMovement
+	METHOD addResource addItemResource (I)Z
+		ARG 1 quantity
+	METHOD getModel getEntityModel ()Lcom/mojang/minecraft/d/h;
+	METHOD getScore getTotalScore ()I
+	METHOD releaseAllKeys releaseAllKeybinds ()V
+	METHOD setKey setKeybind (IZ)V
+		ARG 1 keyValue
+		ARG 2 isSet

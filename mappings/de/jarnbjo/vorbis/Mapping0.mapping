@@ -1,0 +1,10 @@
+CLASS de/jarnbjo/vorbis/a de/jarnbjo/vorbis/Mapping0
+	FIELD a magnitudes [I
+	FIELD b angles [I
+	FIELD c mux [I
+	FIELD d submapFloors [I
+	FIELD e submapResidues [I
+	METHOD <init> (Lde/jarnbjo/vorbis/b;Lde/jarnbjo/a/a/a;Lde/jarnbjo/vorbis/q;)V
+		ARG 1 vorbis
+		ARG 2 source
+		ARG 3 header

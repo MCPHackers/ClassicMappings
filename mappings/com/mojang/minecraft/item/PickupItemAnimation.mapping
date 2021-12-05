@@ -1,0 +1,11 @@
+CLASS com/mojang/minecraft/item/TakeItemAnim com/mojang/minecraft/item/PickupItemAnimation
+	FIELD item blockResourceAsEntity Lcom/mojang/minecraft/item/Item;
+	FIELD player playerEntity Lcom/mojang/minecraft/Entity;
+	FIELD time timeCounter I
+	FIELD xorg xOrigin F
+	FIELD yorg yOrigin F
+	FIELD zorg zOrigin F
+	METHOD <init> (Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/item/Item;Lcom/mojang/minecraft/Entity;)V
+		ARG 1 world
+		ARG 2 resource
+		ARG 3 mob

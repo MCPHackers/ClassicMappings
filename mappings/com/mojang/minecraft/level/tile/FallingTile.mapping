@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/level/tile/h com/mojang/minecraft/level/tile/FallingTile
+	METHOD f tryToFall (Lcom/mojang/minecraft/level/Level;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/level/a/a/a com/mojang/minecraft/level/generator/noisegen/NoiseGenerator
+	METHOD a NoiseGenerator (DD)D
+		ARG 1 d1
+		ARG 3 d2

@@ -1,0 +1,13 @@
+CLASS com/mojang/minecraft/c/o com/mojang/minecraft/gui/LoadLevelScreen
+	FIELD g title Ljava/lang/String;
+	FIELD h parent Lcom/mojang/minecraft/c/n;
+	FIELD j finished Z
+	FIELD k loaded Z
+	FIELD l levels [Ljava/lang/String;
+	FIELD m status Ljava/lang/String;
+	METHOD <init> (Lcom/mojang/minecraft/c/n;)V
+		ARG 1 guiScreen
+	METHOD a loadLevel (I)V
+		ARG 1 id
+	METHOD a setLevels ([Ljava/lang/String;)V
+		ARG 1 levelNames

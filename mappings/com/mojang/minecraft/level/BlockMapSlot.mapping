@@ -1,0 +1,15 @@
+CLASS com/mojang/minecraft/level/c com/mojang/minecraft/level/BlockMapSlot
+	FIELD a xSlot I
+	FIELD b ySlot I
+	FIELD c zSlot I
+	FIELD d blockInMapArray Lcom/mojang/minecraft/level/b;
+	METHOD <init> (Lcom/mojang/minecraft/level/b;)V
+		ARG 1 tileMap
+	METHOD a init (FFF)Lcom/mojang/minecraft/level/c;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a add (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob
+	METHOD b remove (Lcom/mojang/minecraft/Entity;)V
+		ARG 1 mob

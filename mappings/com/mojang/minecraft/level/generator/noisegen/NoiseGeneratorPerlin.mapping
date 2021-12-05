@@ -1,0 +1,15 @@
+CLASS com/mojang/minecraft/level/a/a/d com/mojang/minecraft/level/generator/noisegen/NoiseGeneratorPerlin
+	FIELD a permutations [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a generateNoise (D)D
+		ARG 0 d
+	METHOD a lerp (DDD)D
+		ARG 0 d1
+		ARG 2 d2
+		ARG 4 d3
+	METHOD a grad (IDDD)D
+		ARG 0 id
+		ARG 1 d1
+		ARG 3 d2
+		ARG 5 d3

@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/b/h com/mojang/minecraft/sound/SoundPitchAide
+	FIELD a pitch F
+	METHOD a sound ([SI)I
+		ARG 1 arg
+		ARG 2 id

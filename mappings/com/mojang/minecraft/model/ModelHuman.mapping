@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/d/c com/mojang/minecraft/model/ModelHuman
+	METHOD <init> (F)V
+		ARG 1 translation

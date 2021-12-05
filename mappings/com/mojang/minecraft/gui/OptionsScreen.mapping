@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/c/e com/mojang/minecraft/gui/OptionsScreen
+	FIELD g parent Lcom/mojang/minecraft/c/n;
+	FIELD h title Ljava/lang/String;
+	FIELD j options Lcom/mojang/minecraft/j;
+	METHOD <init> (Lcom/mojang/minecraft/c/n;Lcom/mojang/minecraft/j;)V
+		ARG 1 guiScreen
+		ARG 2 settings

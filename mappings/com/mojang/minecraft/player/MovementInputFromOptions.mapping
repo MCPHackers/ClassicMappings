@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/player/c com/mojang/minecraft/player/MovementInputFromOptions
+	FIELD d keys [Z
+	FIELD e options Lcom/mojang/minecraft/j;
+	METHOD <init> (Lcom/mojang/minecraft/j;)V
+		ARG 1 settings

@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/level/b/a com/mojang/minecraft/level/liquid/Liquid
+	FIELD a none Lcom/mojang/minecraft/level/b/a;
+	FIELD b water Lcom/mojang/minecraft/level/b/a;
+	FIELD c lava Lcom/mojang/minecraft/level/b/a;
+	FIELD d liquidArray [Lcom/mojang/minecraft/level/b/a;
+	METHOD <init> (I)V
+		ARG 1 liquidType
