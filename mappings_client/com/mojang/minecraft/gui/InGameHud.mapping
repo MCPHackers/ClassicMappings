@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/b/a com/mojang/minecraft/gui/InGameHud
+CLASS com/mojang/minecraft/c/a com/mojang/minecraft/gui/InGameHud
 	FIELD a messages Ljava/util/List;
 	FIELD b minecraft Lcom/mojang/minecraft/d;
 	FIELD c scaledWidth I

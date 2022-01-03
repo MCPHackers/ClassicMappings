@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/b/a com/mojang/minecraft/level/levelgen/LevelGen
+CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/levelgen/LevelGen
 	FIELD a minecraft Lcom/mojang/minecraft/d;
 	FIELD b width I
 	FIELD c height I

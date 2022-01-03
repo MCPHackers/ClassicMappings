@@ -1,0 +1,32 @@
+CLASS de/jarnbjo/ogg/c de/jarnbjo/ogg/OggPage
+	FIELD a continued Z
+	FIELD b eos Z
+	FIELD c streamSerialNumber I
+	FIELD d segmentOffsets [I
+	FIELD e segmentLengths [I
+	FIELD f segmentTable [B
+	FIELD g data [B
+	FIELD h totalLength I
+	METHOD <init> (ZZZJIII[I[II[B[B[B)V
+		ARG 1 continued
+		ARG 2 bos
+		ARG 3 eos
+		ARG 4 absoluteGranulePosition
+		ARG 6 streamSerialNumber
+		ARG 7 pageSequenceNumber
+		ARG 8 pageCheckSum
+		ARG 9 segmentOffsets
+		ARG 10 segmentLengths
+		ARG 11 totalLength
+		ARG 12 header
+		ARG 13 segmentTable
+		ARG 14 data
+	METHOD a getTotalLength ()I
+	METHOD a create (Ljava/io/InputStream;)Lde/jarnbjo/ogg/c;
+		ARG 0 source
+	METHOD a readFully (Ljava/io/InputStream;[B)V
+		ARG 0 source
+		ARG 1 buffer
+	METHOD a create (Ljava/lang/Object;Z)Lde/jarnbjo/ogg/c;
+		ARG 0 source
+		ARG 1 skipData

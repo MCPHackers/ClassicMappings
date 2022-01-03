@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/LeafTile
+CLASS com/mojang/minecraft/level/tile/b com/mojang/minecraft/level/tile/LeafTile
 	FIELD U renderAdjacentFaces Z

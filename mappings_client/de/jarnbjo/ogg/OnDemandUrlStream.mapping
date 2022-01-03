@@ -1,0 +1,9 @@
+CLASS de/jarnbjo/ogg/b de/jarnbjo/ogg/OnDemandUrlStream
+	FIELD a logicalStreams Ljava/util/HashMap;
+	FIELD b source Ljava/net/URLConnection;
+	FIELD c sourceStream Ljava/io/InputStream;
+	FIELD d position I
+	FIELD e firstPage Lde/jarnbjo/ogg/c;
+	METHOD <init> (Ljava/net/URL;)V
+		ARG 1 source
+	METHOD a getOggPage ()Lde/jarnbjo/ogg/c;

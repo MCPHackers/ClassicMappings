@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/b/d com/mojang/minecraft/gui/InventoryScreen
+CLASS com/mojang/minecraft/c/d com/mojang/minecraft/gui/InventoryScreen
 	METHOD b getTileAtSlot (II)I

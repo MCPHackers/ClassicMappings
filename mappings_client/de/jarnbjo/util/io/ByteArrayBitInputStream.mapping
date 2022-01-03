@@ -1,0 +1,10 @@
+CLASS de/jarnbjo/a/a/a de/jarnbjo/util/io/ByteArrayBitInputStream
+	FIELD a source [B
+	FIELD b currentByte B
+	FIELD c endian I
+	FIELD d byteIndex I
+	FIELD e bitIndex I
+	METHOD a getBit ()Z
+	METHOD a getInt (I)I
+	METHOD a getInt (Lde/jarnbjo/a/a/b;)I
+	METHOD b getLong (I)J

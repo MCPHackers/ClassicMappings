@@ -4,10 +4,10 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD C emptyCursor Lorg/lwjgl/input/Cursor;
 	FIELD D yMouseAxis I
 	FIELD E editMode I
-	FIELD F levelGen Lcom/mojang/minecraft/level/b/a;
+	FIELD F levelGen Lcom/mojang/minecraft/level/a/a;
 	FIELD G ticksRan I
 	FIELD H robot Ljava/awt/Robot;
-	FIELD I hud Lcom/mojang/minecraft/b/a;
+	FIELD I hud Lcom/mojang/minecraft/c/a;
 	FIELD J fogColorRed F
 	FIELD K fogColorGreen F
 	FIELD L fogColorBlue F
@@ -31,8 +31,8 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD g appletMode Z
 	FIELD h pause Z
 	FIELD i textures Lcom/mojang/minecraft/a/a;
-	FIELD j font Lcom/mojang/minecraft/b/l;
-	FIELD k screen Lcom/mojang/minecraft/b/f;
+	FIELD j font Lcom/mojang/minecraft/c/l;
+	FIELD k screen Lcom/mojang/minecraft/c/f;
 	FIELD l levelIo Lcom/mojang/minecraft/level/a;
 	FIELD m loadMapUser Ljava/lang/String;
 	FIELD n loadMapId I
@@ -52,7 +52,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD a orientCamera (F)V
 	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a setLoadingProgress (I)V
-	METHOD a setScreen (Lcom/mojang/minecraft/b/f;)V
+	METHOD a setScreen (Lcom/mojang/minecraft/c/f;)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V
 	METHOD a loadLevel (Ljava/lang/String;I)Z

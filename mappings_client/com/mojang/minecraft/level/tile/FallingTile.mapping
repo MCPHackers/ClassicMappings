@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/level/a/d com/mojang/minecraft/level/tile/FallingTile
+CLASS com/mojang/minecraft/level/tile/d com/mojang/minecraft/level/tile/FallingTile
 	METHOD e tryToFall (Lcom/mojang/minecraft/level/Level;III)V

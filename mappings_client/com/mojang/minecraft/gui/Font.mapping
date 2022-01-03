@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/b/l com/mojang/minecraft/gui/Font
+CLASS com/mojang/minecraft/c/l com/mojang/minecraft/gui/Font
 	FIELD a charWidths [I
 	FIELD b fontTexture I
 	METHOD a width (Ljava/lang/String;)I

@@ -1,0 +1,12 @@
+CLASS de/jarnbjo/vorbis/k de/jarnbjo/vorbis/Look
+	FIELD a stages I
+	FIELD b phrasebook Lde/jarnbjo/vorbis/m;
+	FIELD c partbooks [[I
+	FIELD d decodemap [[I
+	FIELD e parts I
+	FIELD f fullbooks [Lde/jarnbjo/vorbis/m;
+	FIELD g partvals I
+	METHOD <init> (Lde/jarnbjo/vorbis/n;Lde/jarnbjo/vorbis/b;Lde/jarnbjo/vorbis/j;)V
+		ARG 1 residue
+		ARG 2 source
+		ARG 3 mode

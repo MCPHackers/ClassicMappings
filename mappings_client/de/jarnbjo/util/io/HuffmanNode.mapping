@@ -1,0 +1,8 @@
+CLASS de/jarnbjo/a/a/b de/jarnbjo/util/io/HuffmanNode
+	FIELD a o0 Lde/jarnbjo/a/a/b;
+	FIELD b o1 Lde/jarnbjo/a/a/b;
+	FIELD c value Ljava/lang/Integer;
+	FIELD d depth I
+	FIELD e full Z
+	METHOD a isFull ()Z
+	METHOD a setNewValue (II)Z
