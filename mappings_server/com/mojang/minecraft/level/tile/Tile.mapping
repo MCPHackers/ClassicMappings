@@ -1,27 +1,49 @@
 CLASS com/mojang/minecraft/level/a/b com/mojang/minecraft/level/tile/Tile
+	FIELD A clothGreen Lcom/mojang/minecraft/level/a/b;
+	FIELD B clothSpringGreen Lcom/mojang/minecraft/level/a/b;
+	FIELD C clothCyan Lcom/mojang/minecraft/level/a/b;
+	FIELD D clothCapri Lcom/mojang/minecraft/level/a/b;
+	FIELD E clothUltramarine Lcom/mojang/minecraft/level/a/b;
+	FIELD F clothViolet Lcom/mojang/minecraft/level/a/b;
+	FIELD G clothPurple Lcom/mojang/minecraft/level/a/b;
+	FIELD H clothMagenta Lcom/mojang/minecraft/level/a/b;
+	FIELD I clothRose Lcom/mojang/minecraft/level/a/b;
+	FIELD J clothDarkGray Lcom/mojang/minecraft/level/a/b;
+	FIELD K clothGray Lcom/mojang/minecraft/level/a/b;
+	FIELD L clothWhite Lcom/mojang/minecraft/level/a/b;
+	FIELD M plantYellow Lcom/mojang/minecraft/level/a/b;
+	FIELD N plantRed Lcom/mojang/minecraft/level/a/b;
+	FIELD O mushroomBrown Lcom/mojang/minecraft/level/a/b;
+	FIELD P mushroomRed Lcom/mojang/minecraft/level/a/b;
+	FIELD Q blockGold Lcom/mojang/minecraft/level/a/b;
+	FIELD R id I
+	FIELD S tickSpeed [I
 	FIELD a tiles [Lcom/mojang/minecraft/level/a/b;
 	FIELD b shouldTick [Z
 	FIELD c rock Lcom/mojang/minecraft/level/a/b;
 	FIELD d grass Lcom/mojang/minecraft/level/a/b;
 	FIELD e dirt Lcom/mojang/minecraft/level/a/b;
 	FIELD f wood Lcom/mojang/minecraft/level/a/b;
-	FIELD g bush Lcom/mojang/minecraft/level/a/b;
-	FIELD h unbreakable Lcom/mojang/minecraft/level/a/b;
-	FIELD i water Lcom/mojang/minecraft/level/a/b;
-	FIELD j calmWater Lcom/mojang/minecraft/level/a/b;
-	FIELD k lava Lcom/mojang/minecraft/level/a/b;
-	FIELD l calmLava Lcom/mojang/minecraft/level/a/b;
-	FIELD m sand Lcom/mojang/minecraft/level/a/b;
-	FIELD n gravel Lcom/mojang/minecraft/level/a/b;
-	FIELD o oreGold Lcom/mojang/minecraft/level/a/b;
-	FIELD p oreIron Lcom/mojang/minecraft/level/a/b;
-	FIELD q oreCoal Lcom/mojang/minecraft/level/a/b;
-	FIELD r log Lcom/mojang/minecraft/level/a/b;
-	FIELD s leaf Lcom/mojang/minecraft/level/a/b;
-	FIELD t sponge Lcom/mojang/minecraft/level/a/b;
-	FIELD u glass Lcom/mojang/minecraft/level/a/b;
-	FIELD v id I
-	FIELD w tickSpeed [I
+	FIELD g stoneBrick Lcom/mojang/minecraft/level/a/b;
+	FIELD h bush Lcom/mojang/minecraft/level/a/b;
+	FIELD i unbreakable Lcom/mojang/minecraft/level/a/b;
+	FIELD j water Lcom/mojang/minecraft/level/a/b;
+	FIELD k calmWater Lcom/mojang/minecraft/level/a/b;
+	FIELD l lava Lcom/mojang/minecraft/level/a/b;
+	FIELD m calmLava Lcom/mojang/minecraft/level/a/b;
+	FIELD n sand Lcom/mojang/minecraft/level/a/b;
+	FIELD o gravel Lcom/mojang/minecraft/level/a/b;
+	FIELD p oreGold Lcom/mojang/minecraft/level/a/b;
+	FIELD q oreIron Lcom/mojang/minecraft/level/a/b;
+	FIELD r oreCoal Lcom/mojang/minecraft/level/a/b;
+	FIELD s log Lcom/mojang/minecraft/level/a/b;
+	FIELD t leaf Lcom/mojang/minecraft/level/a/b;
+	FIELD u sponge Lcom/mojang/minecraft/level/a/b;
+	FIELD v glass Lcom/mojang/minecraft/level/a/b;
+	FIELD w clothRed Lcom/mojang/minecraft/level/a/b;
+	FIELD x clothOrange Lcom/mojang/minecraft/level/a/b;
+	FIELD y clothYellow Lcom/mojang/minecraft/level/a/b;
+	FIELD z clothChartreuse Lcom/mojang/minecraft/level/a/b;
 	METHOD a blocksLight ()Z
 	METHOD a setTickSpeed (I)V
 	METHOD a getAABB (III)Lcom/mojang/minecraft/phys/AABB;

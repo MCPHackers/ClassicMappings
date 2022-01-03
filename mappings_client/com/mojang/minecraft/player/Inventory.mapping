@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/player/c com/mojang/minecraft/player/Inventory
+	FIELD a slots [I
+	FIELD b selectedSlot I
+	METHOD a getSelected ()I
+	METHOD a getSlotContainsID (I)I
+	METHOD a getSlotContainsTile (Lcom/mojang/minecraft/level/a/a;)V

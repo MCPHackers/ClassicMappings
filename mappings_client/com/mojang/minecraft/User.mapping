@@ -1,5 +1,5 @@
 CLASS com/mojang/minecraft/a com/mojang/minecraft/User
-	FIELD a creativeTiles [I
+	FIELD a creativeTiles Ljava/util/List;
 	FIELD b name Ljava/lang/String;
 	FIELD c sessionId Ljava/lang/String;
 	FIELD d mpPass Ljava/lang/String;

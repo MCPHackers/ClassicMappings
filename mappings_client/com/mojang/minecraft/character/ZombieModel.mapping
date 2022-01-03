@@ -5,4 +5,4 @@ CLASS com/mojang/minecraft/character/a com/mojang/minecraft/character/ZombieMode
 	FIELD d arm1 Lcom/mojang/minecraft/character/d;
 	FIELD e leg0 Lcom/mojang/minecraft/character/d;
 	FIELD f leg1 Lcom/mojang/minecraft/character/d;
-	METHOD a render (FFFFF)V
+	METHOD a render (FFFFFF)V

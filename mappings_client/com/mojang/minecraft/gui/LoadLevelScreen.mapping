@@ -1,6 +1,6 @@
-CLASS com/mojang/minecraft/b/h com/mojang/minecraft/gui/LoadLevelScreen
+CLASS com/mojang/minecraft/b/i com/mojang/minecraft/gui/LoadLevelScreen
 	FIELD e title Ljava/lang/String;
-	FIELD f parent Lcom/mojang/minecraft/b/e;
+	FIELD f parent Lcom/mojang/minecraft/b/f;
 	FIELD g finished Z
 	FIELD h loaded Z
 	FIELD i levels [Ljava/lang/String;

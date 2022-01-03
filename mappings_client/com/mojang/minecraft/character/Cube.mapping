@@ -11,6 +11,6 @@ CLASS com/mojang/minecraft/character/d com/mojang/minecraft/character/Cube
 	FIELD j z F
 	FIELD k compiled Z
 	FIELD l list I
-	METHOD a render ()V
+	METHOD a render (F)V
 	METHOD a setPos (FFF)V
 	METHOD a addBox (FFFIII)V

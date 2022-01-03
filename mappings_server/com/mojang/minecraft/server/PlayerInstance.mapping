@@ -7,18 +7,19 @@ CLASS com/mojang/minecraft/server/d com/mojang/minecraft/server/PlayerInstance
 	FIELD f z I
 	FIELD g pitch I
 	FIELD h yaw I
-	FIELD i logger Ljava/util/logging/Logger;
-	FIELD j minecraft Lcom/mojang/minecraft/server/MinecraftServer;
-	FIELD k onlyIP Z
-	FIELD l sendingPackets Z
-	FIELD m packets Ljava/util/ArrayList;
-	FIELD n currentTime J
-	FIELD o placedBlocks Ljava/util/List;
-	FIELD p chatCounter I
-	FIELD q ignorePackets Z
-	FIELD r packetHandlingCounter I
-	FIELD s ticks I
-	FIELD t blocks [B
+	FIELD i placeUnbreakable Z
+	FIELD j logger Ljava/util/logging/Logger;
+	FIELD k minecraft Lcom/mojang/minecraft/server/MinecraftServer;
+	FIELD l onlyIP Z
+	FIELD m sendingPackets Z
+	FIELD n packets Ljava/util/ArrayList;
+	FIELD o currentTime J
+	FIELD p placedBlocks Ljava/util/List;
+	FIELD q chatCounter I
+	FIELD r ignorePackets Z
+	FIELD s packetHandlingCounter I
+	FIELD t ticks I
+	FIELD u blocks [B
 	METHOD a handlePackets ()V
 	METHOD a handlePackets (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 	METHOD a handleException (Ljava/lang/Exception;)V
