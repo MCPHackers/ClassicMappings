@@ -3,4 +3,3 @@ CLASS com/mojang/minecraft/e com/mojang/minecraft/HitResult
 	FIELD b y I
 	FIELD c z I
 	FIELD d f I
-	METHOD a distanceTo (Lcom/mojang/minecraft/player/Player;I)F

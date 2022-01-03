@@ -14,15 +14,14 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD M mouseGrabbed Z
 	FIELD N prevFrameTime I
 	FIELD O renderDistance F
-	FIELD P viewportBuffer Ljava/nio/IntBuffer;
-	FIELD Q selectBuffer Ljava/nio/IntBuffer;
-	FIELD R hitResult Lcom/mojang/minecraft/e;
-	FIELD S fogColorMultiplier F
-	FIELD T unusedInt1 I
-	FIELD U unusedInt2 I
-	FIELD V lb Ljava/nio/FloatBuffer;
-	FIELD W title Ljava/lang/String;
-	FIELD X text Ljava/lang/String;
+	FIELD P hitResult Lcom/mojang/minecraft/e;
+	FIELD Q fogColorMultiplier F
+	FIELD R displayActive Z
+	FIELD S unusedInt1 I
+	FIELD T unusedInt2 I
+	FIELD U lb Ljava/nio/FloatBuffer;
+	FIELD V title Ljava/lang/String;
+	FIELD W text Ljava/lang/String;
 	FIELD a width I
 	FIELD b height I
 	FIELD c level Lcom/mojang/minecraft/level/Level;
@@ -59,7 +58,6 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	METHOD a loadLevel (Ljava/lang/String;I)Z
 	METHOD a toggleLight (Z)V
 	METHOD b grabMouse ()V
-	METHOD b render (F)V
 	METHOD b generateLevel (I)V
 	METHOD b levelLoadUpdate (Ljava/lang/String;)V
 	METHOD c initGui ()V

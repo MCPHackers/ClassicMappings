@@ -3,6 +3,7 @@ CLASS com/mojang/minecraft/b/f com/mojang/minecraft/gui/Screen
 	FIELD b y I
 	FIELD c w I
 	FIELD d buttons Ljava/util/List;
+	FIELD e allowUserInput Z
 	METHOD a init ()V
 	METHOD a keyPressed (CI)V
 	METHOD a render (II)V
@@ -15,4 +16,5 @@ CLASS com/mojang/minecraft/b/f com/mojang/minecraft/gui/Screen
 	METHOD b closeScreen ()V
 	METHOD b drawString (Ljava/lang/String;III)V
 	METHOD c tick ()V
-	METHOD d updateEvents ()V
+	METHOD d updateMouseEvents ()V
+	METHOD e updateKeyboardEvents ()V
