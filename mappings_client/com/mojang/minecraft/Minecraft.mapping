@@ -49,7 +49,7 @@ CLASS com/mojang/minecraft/d com/mojang/minecraft/Minecraft
 	FIELD y timer Lcom/mojang/minecraft/c;
 	FIELD z levelRenderer Lcom/mojang/minecraft/a/g;
 	METHOD a destroy ()V
-	METHOD a orientCamera (F)V
+	METHOD a render (F)V
 	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a setLoadingProgress (I)V
 	METHOD a setScreen (Lcom/mojang/minecraft/b/f;)V
