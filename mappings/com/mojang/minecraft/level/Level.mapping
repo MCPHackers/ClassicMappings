@@ -35,4 +35,4 @@ CLASS com/mojang/minecraft/a/g com/mojang/minecraft/level/Level
 		ARG 2 y0
 		ARG 3 x1
 		ARG 4 y1
-	METHOD d neighborChanged (IIII)V
+	METHOD d updateNeighborAt (IIII)V
