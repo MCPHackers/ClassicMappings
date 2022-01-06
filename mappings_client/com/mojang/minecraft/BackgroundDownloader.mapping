@@ -1,3 +1,8 @@
+CLASS com/mojang/minecraft/c com/mojang/minecraft/BackgroundDownloader
+	FIELD a closing Z
+	FIELD b resourcesFolder Ljava/io/File;
+	FIELD c minecraft Lcom/mojang/minecraft/h;
+	METHOD a downloadResource (Ljava/net/URL;Ljava/io/File;)V
 CLASS com/mojang/minecraft/BackgroundDownloader
 	CLASS OS
 		FIELD linux Lcom/mojang/minecraft/BackgroundDownloader$OS;

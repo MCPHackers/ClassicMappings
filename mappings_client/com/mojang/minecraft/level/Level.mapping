@@ -7,6 +7,6 @@ CLASS com/mojang/minecraft/level/Level
 	FIELD rendererContext$5cd64a7f rendererContext Lcom/mojang/minecraft/h;
 	METHOD a isSolidTile (FFF)Z
 	METHOD a isInLevelBounds (III)Z
-	METHOD a notifyBlocksOfNeighborChange (IIII)V
+	METHOD a updateNeighborAt (IIII)V
 	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
 	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V
