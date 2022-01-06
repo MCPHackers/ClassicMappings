@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/BackgroundDownloader
+	CLASS OS
+		FIELD linux Lcom/mojang/minecraft/BackgroundDownloader$OS;
+		FIELD macos Lcom/mojang/minecraft/BackgroundDownloader$OS;
+		FIELD solaris Lcom/mojang/minecraft/BackgroundDownloader$OS;
+		FIELD unknown Lcom/mojang/minecraft/BackgroundDownloader$OS;
+		FIELD windows Lcom/mojang/minecraft/BackgroundDownloader$OS;

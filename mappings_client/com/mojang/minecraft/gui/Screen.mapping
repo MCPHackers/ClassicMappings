@@ -1,7 +1,7 @@
-CLASS com/mojang/minecraft/c/f com/mojang/minecraft/gui/Screen
-	FIELD a minecraft Lcom/mojang/minecraft/d;
-	FIELD b y I
-	FIELD c w I
+CLASS com/mojang/minecraft/c/k com/mojang/minecraft/gui/Screen
+	FIELD a minecraft Lcom/mojang/minecraft/h;
+	FIELD b width I
+	FIELD c height I
 	FIELD d buttons Ljava/util/List;
 	FIELD e allowUserInput Z
 	METHOD a init ()V
@@ -10,11 +10,12 @@ CLASS com/mojang/minecraft/c/f com/mojang/minecraft/gui/Screen
 	METHOD a mousePressed (III)V
 	METHOD a fill (IIIII)V
 	METHOD a fillGradient (IIIIII)V
-	METHOD a buttonClicked (Lcom/mojang/minecraft/c/g;)V
-	METHOD a init (Lcom/mojang/minecraft/d;II)V
+	METHOD a buttonClicked (Lcom/mojang/minecraft/c/d;)V
+	METHOD a init (Lcom/mojang/minecraft/h;II)V
 	METHOD a drawCenteredString (Ljava/lang/String;III)V
 	METHOD b closeScreen ()V
 	METHOD b drawString (Ljava/lang/String;III)V
 	METHOD c tick ()V
-	METHOD d updateMouseEvents ()V
-	METHOD e updateKeyboardEvents ()V
+	METHOD d updateEvents ()V
+	METHOD e updateMouseEvents ()V
+	METHOD f updateKeyboardEvents ()V

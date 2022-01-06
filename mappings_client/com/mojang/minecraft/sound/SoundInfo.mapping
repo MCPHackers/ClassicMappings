@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/b/j com/mojang/minecraft/sound/SoundInfo
+	FIELD b data Lcom/mojang/minecraft/b/b;
+	FIELD c seek F
+	FIELD d pitch F

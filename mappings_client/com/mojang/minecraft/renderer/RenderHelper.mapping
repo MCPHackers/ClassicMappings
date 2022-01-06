@@ -1,0 +1,15 @@
+CLASS com/mojang/minecraft/a/d com/mojang/minecraft/renderer/RenderHelper
+	FIELD a minecraft Lcom/mojang/minecraft/h;
+	FIELD b fogColorMultiplier F
+	FIELD c displayActive Z
+	FIELD d fogColorRed F
+	FIELD e fogColorGreen F
+	FIELD f fogColorBlue F
+	FIELD g renderDistance F
+	FIELD h unusedInt1 I
+	FIELD i unusedInt2 I
+	FIELD j lb Ljava/nio/FloatBuffer;
+	METHOD a initGui ()V
+	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD a toggleLight (Z)V
+	METHOD b setupFog ()V

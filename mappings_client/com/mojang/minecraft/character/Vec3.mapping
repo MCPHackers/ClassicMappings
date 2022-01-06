@@ -1,6 +1,6 @@
-CLASS com/mojang/minecraft/character/c com/mojang/minecraft/character/Vec3
+CLASS com/mojang/minecraft/character/d com/mojang/minecraft/character/Vec3
 	FIELD a x F
 	FIELD b y F
 	FIELD c z F
-	METHOD a normalize ()Lcom/mojang/minecraft/character/c;
-	METHOD a subtract (Lcom/mojang/minecraft/character/c;)Lcom/mojang/minecraft/character/c;
+	METHOD a normalize ()Lcom/mojang/minecraft/character/d;
+	METHOD a subtract (Lcom/mojang/minecraft/character/d;)Lcom/mojang/minecraft/character/d;

@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/b/g com/mojang/minecraft/sound/Sound
+	FIELD a info Lcom/mojang/minecraft/b/h;
+	FIELD b pos Lcom/mojang/minecraft/b/f;
+	FIELD c pitch F
+	FIELD d volume F
+	FIELD e data [S

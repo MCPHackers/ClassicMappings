@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/c com/mojang/minecraft/Timer
+CLASS com/mojang/minecraft/d com/mojang/minecraft/Timer
 	FIELD a ticksPerSecond F
 	FIELD b lastHRTime D
 	FIELD c ticks I

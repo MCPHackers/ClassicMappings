@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/b/n com/mojang/minecraft/sound/LevelSoundPos
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F

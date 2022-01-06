@@ -5,9 +5,9 @@ CLASS com/mojang/minecraft/a/g com/mojang/minecraft/renderer/LevelRenderer
 	FIELD d drawDistance I
 	FIELD e dummyBuffer Ljava/nio/IntBuffer;
 	FIELD f dirtyChunks Ljava/util/Set;
-	FIELD g sortedChunks [Lcom/mojang/minecraft/a/f;
+	FIELD g sortedChunks [Lcom/mojang/minecraft/a/h;
 	FIELD h cloudTickCounter I
-	FIELD i chunks [Lcom/mojang/minecraft/a/f;
+	FIELD i chunks [Lcom/mojang/minecraft/a/h;
 	FIELD j xChunks I
 	FIELD k yChunks I
 	FIELD l zChunks I
@@ -19,7 +19,7 @@ CLASS com/mojang/minecraft/a/g com/mojang/minecraft/renderer/LevelRenderer
 	METHOD a renderClouds (F)V
 	METHOD a render (III)V
 	METHOD a setDirty (IIIIII)V
-	METHOD a renderEntities (Lcom/mojang/minecraft/a/d;F)V
-	METHOD a renderHitOutline (Lcom/mojang/minecraft/e;I)V
+	METHOD a renderEntities (Lcom/mojang/minecraft/a/e;F)V
+	METHOD a renderHitOutline (Lcom/mojang/minecraft/f;I)V
 	METHOD a render (Lcom/mojang/minecraft/player/Player;I)I
-	METHOD a renderHit (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/e;II)V
+	METHOD a renderHit (Lcom/mojang/minecraft/player/Player;Lcom/mojang/minecraft/f;II)V

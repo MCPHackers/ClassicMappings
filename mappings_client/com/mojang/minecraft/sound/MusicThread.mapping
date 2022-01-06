@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/b/l com/mojang/minecraft/sound/MusicThread
+	FIELD a music Lcom/mojang/minecraft/b/m;

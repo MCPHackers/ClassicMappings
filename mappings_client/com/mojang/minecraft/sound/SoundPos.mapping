@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/f com/mojang/minecraft/sound/SoundPos
+	METHOD a getRotationDiff ()F
+	METHOD b getDistanceSq ()F

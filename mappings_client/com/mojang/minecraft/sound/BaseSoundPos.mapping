@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/b/e com/mojang/minecraft/sound/BaseSoundPos
+	FIELD a listener Lcom/mojang/minecraft/Entity;
+	METHOD a getRotationDiff (FF)F
+	METHOD a getDistanceSq (FFF)F

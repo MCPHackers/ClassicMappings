@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/b/a com/mojang/minecraft/sound/Audio
+	METHOD a play ([I[II)Z

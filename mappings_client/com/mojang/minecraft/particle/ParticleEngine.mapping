@@ -1,4 +1,5 @@
 CLASS com/mojang/minecraft/particle/a com/mojang/minecraft/particle/ParticleEngine
 	FIELD a particles Ljava/util/List;
 	FIELD b textures Lcom/mojang/minecraft/a/a;
+	METHOD a tick ()V
 	METHOD a render (Lcom/mojang/minecraft/player/Player;F)V

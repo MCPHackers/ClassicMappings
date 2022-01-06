@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/b/d com/mojang/minecraft/sound/SoundReader
+	METHOD a read (Ljava/net/URL;)Lcom/mojang/minecraft/b/b;

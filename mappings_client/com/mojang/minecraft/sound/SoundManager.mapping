@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/b/k com/mojang/minecraft/sound/SoundManager
+	FIELD a sounds Ljava/util/Map;
+	FIELD b random Ljava/util/Random;
+	FIELD c lastMusic J
+	FIELD d reader Lcom/mojang/minecraft/b/d;
+	FIELD e music Ljava/util/Map;
+	METHOD a playMusic (Lcom/mojang/minecraft/b/i;Ljava/lang/String;)Z
+	METHOD a registerSound (Ljava/io/File;Ljava/lang/String;)V
+	METHOD a getAudioInfo (Ljava/lang/String;FF)Lcom/mojang/minecraft/b/h;
+	METHOD a registerMusic (Ljava/lang/String;Ljava/io/File;)V

@@ -1,5 +1,5 @@
-CLASS com/mojang/minecraft/c/b com/mojang/minecraft/gui/NameLevelScreen
-	FIELD f parent Lcom/mojang/minecraft/c/f;
+CLASS com/mojang/minecraft/c/a com/mojang/minecraft/gui/NameLevelScreen
+	FIELD f parent Lcom/mojang/minecraft/c/k;
 	FIELD g title Ljava/lang/String;
 	FIELD h id I
 	FIELD i name Ljava/lang/String;

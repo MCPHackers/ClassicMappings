@@ -1,6 +1,2 @@
-CLASS com/mojang/minecraft/character/Zombie com/mojang/minecraft/character/Zombie
+CLASS com/mojang/minecraft/character/Zombie
 	FIELD a zombieModel Lcom/mojang/minecraft/character/a;
-	FIELD rotA F
-	FIELD rot F
-	FIELD speed F
-	FIELD timeOffs F

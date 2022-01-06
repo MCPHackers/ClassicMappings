@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/b/m com/mojang/minecraft/sound/Music
+	FIELD a playing Ljava/nio/ByteBuffer;
+	FIELD b current Ljava/nio/ByteBuffer;
+	FIELD c previous Ljava/nio/ByteBuffer;
+	FIELD d stream Lde/jarnbjo/vorbis/b;
+	FIELD e player Lcom/mojang/minecraft/b/i;
+	FIELD f finished Z
+	FIELD g stopped Z
+	FIELD h processing Ljava/nio/ByteBuffer;

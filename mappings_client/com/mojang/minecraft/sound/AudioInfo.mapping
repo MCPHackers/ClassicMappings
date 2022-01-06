@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/h com/mojang/minecraft/sound/AudioInfo
+	FIELD a volume F
+	METHOD a update ([SI)I

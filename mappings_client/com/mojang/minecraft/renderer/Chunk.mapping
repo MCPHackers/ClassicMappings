@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/a/f com/mojang/minecraft/renderer/Chunk
+CLASS com/mojang/minecraft/a/h com/mojang/minecraft/renderer/Chunk
 	FIELD a updates I
 	FIELD b isInFrustum Z
 	FIELD c level Lcom/mojang/minecraft/level/Level;
@@ -12,7 +12,7 @@ CLASS com/mojang/minecraft/a/f com/mojang/minecraft/renderer/Chunk
 	FIELD k z1 I
 	FIELD l skipRenderPass [Z
 	METHOD a clear ()V
-	METHOD a isInFrustum (Lcom/mojang/minecraft/a/d;)V
+	METHOD a isInFrustum (Lcom/mojang/minecraft/a/e;)V
 	METHOD a render (Ljava/nio/IntBuffer;I)V
 	METHOD b rebuild ()V
 	METHOD c reset ()V

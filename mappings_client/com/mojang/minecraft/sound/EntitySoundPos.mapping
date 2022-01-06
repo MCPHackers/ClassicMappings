@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/b/c com/mojang/minecraft/sound/EntitySoundPos
+	FIELD a source Lcom/mojang/minecraft/Entity;

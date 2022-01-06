@@ -1,13 +1,13 @@
-CLASS com/mojang/minecraft/a/d com/mojang/minecraft/renderer/Frustum
+CLASS com/mojang/minecraft/a/e com/mojang/minecraft/renderer/Frustum
 	FIELD a m_Frustum [[F
-	FIELD b frustum Lcom/mojang/minecraft/a/d;
+	FIELD b frustum Lcom/mojang/minecraft/a/e;
 	FIELD c _proj Ljava/nio/FloatBuffer;
 	FIELD d _modl Ljava/nio/FloatBuffer;
 	FIELD e _clip Ljava/nio/FloatBuffer;
 	FIELD f proj [F
 	FIELD g modl [F
 	FIELD h clip [F
-	METHOD a getFrustum ()Lcom/mojang/minecraft/a/d;
+	METHOD a getFrustum ()Lcom/mojang/minecraft/a/e;
 	METHOD a cubeInFrustum (FFFFFF)Z
 	METHOD a isVisible (Lcom/mojang/minecraft/phys/AABB;)Z
 	METHOD a normalizePlane ([[FI)V

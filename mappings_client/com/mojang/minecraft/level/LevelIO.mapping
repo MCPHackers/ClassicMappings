@@ -1,5 +1,5 @@
 CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelIO
-	FIELD a minecraft Lcom/mojang/minecraft/d;
+	FIELD a progress Lcom/mojang/minecraft/g;
 	METHOD a save (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
 	METHOD a save (Lcom/mojang/minecraft/level/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
 	METHOD a load (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;

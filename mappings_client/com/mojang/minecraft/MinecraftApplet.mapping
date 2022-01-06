@@ -1,3 +1,0 @@
-CLASS com/mojang/minecraft/MinecraftApplet com/mojang/minecraft/MinecraftApplet
-	FIELD canvas Ljava/awt/Canvas;
-	FIELD thread Ljava/lang/Thread;

@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/character/d com/mojang/minecraft/character/Cube
+CLASS com/mojang/minecraft/character/c com/mojang/minecraft/character/Cube
 	FIELD a xRot F
 	FIELD b yRot F
 	FIELD c zRot F

@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/c/g com/mojang/minecraft/gui/Button
+CLASS com/mojang/minecraft/c/d com/mojang/minecraft/gui/Button
 	FIELD a x I
 	FIELD b y I
 	FIELD c w I

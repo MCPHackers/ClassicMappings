@@ -4,3 +4,4 @@ CLASS com/mojang/minecraft/player/c com/mojang/minecraft/player/Inventory
 	METHOD a getSelected ()I
 	METHOD a getSlotContainsID (I)I
 	METHOD a getSlotContainsTile (Lcom/mojang/minecraft/level/tile/a;)V
+	METHOD b scrollHotbar (I)V

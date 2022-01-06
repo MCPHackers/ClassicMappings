@@ -1,26 +1,11 @@
-CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
+CLASS com/mojang/minecraft/level/Level
 	FIELD a levelListeners Ljava/util/ArrayList;
 	FIELD b heightMap [I
-	FIELD blocks [B
 	FIELD c random Ljava/util/Random;
-	FIELD createTime J
-	FIELD creator Ljava/lang/String;
 	FIELD d randValue I
-	FIELD depth I
 	FIELD e tickList Ljava/util/ArrayList;
-	FIELD entities Ljava/util/ArrayList;
-	FIELD height I
-	FIELD name Ljava/lang/String;
-	FIELD rotSpawn F
-	FIELD serialVersionUID J
-	FIELD tickCount I
-	FIELD unprocessed I
-	FIELD width I
-	FIELD xSpawn I
-	FIELD ySpawn I
-	FIELD zSpawn I
+	FIELD rendererContext$5cd64a7f rendererContext Lcom/mojang/minecraft/h;
 	METHOD a isSolidTile (FFF)Z
 	METHOD a isInLevelBounds (III)Z
-	METHOD a notifyBlocksOfNeighborChange (IIII)V
 	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
 	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V

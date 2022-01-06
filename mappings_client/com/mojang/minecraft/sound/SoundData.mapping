@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/b/b com/mojang/minecraft/sound/SoundData
+	FIELD a data [S
+	FIELD b length F
