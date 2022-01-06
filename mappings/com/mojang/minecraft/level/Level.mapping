@@ -19,4 +19,4 @@ CLASS com/mojang/minecraft/a/f com/mojang/minecraft/level/Level
 	METHOD b getTile (III)I
 	METHOD b setTileNoUpdate (IIII)Z
 	METHOD c calcLightDepths (IIII)V
-	METHOD d neighborChanged (IIII)V
+	METHOD d updateNeighborAt (IIII)V
