@@ -1,7 +1,7 @@
 CLASS com/mojang/minecraft/b/i com/mojang/minecraft/sound/SoundPlayer
 	FIELD a running Z
 	FIELD b dataLine Ljavax/sound/sampled/SourceDataLine;
-	FIELD c enabled Z
+	FIELD c options Lcom/mojang/minecraft/j;
 	FIELD d audioQueue Ljava/util/List;
 	METHOD a play (Lcom/mojang/minecraft/b/a;)V
 	METHOD a play (Lcom/mojang/minecraft/b/h;Lcom/mojang/minecraft/b/f;)V

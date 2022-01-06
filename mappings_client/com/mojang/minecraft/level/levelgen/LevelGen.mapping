@@ -1,5 +1,4 @@
 CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/levelgen/LevelGen
-	FIELD a loadingScreen Lcom/mojang/minecraft/g;
 	FIELD b width I
 	FIELD c height I
 	FIELD d depth I

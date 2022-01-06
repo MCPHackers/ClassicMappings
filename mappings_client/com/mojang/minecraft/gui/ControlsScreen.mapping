@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/c/c com/mojang/minecraft/gui/ControlsScreen
+	FIELD g parent Lcom/mojang/minecraft/c/o;
+	FIELD h title Ljava/lang/String;
+	FIELD j options Lcom/mojang/minecraft/j;
+	FIELD k selectedKey I

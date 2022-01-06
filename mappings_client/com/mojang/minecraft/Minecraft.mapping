@@ -1,7 +1,7 @@
-CLASS com/mojang/minecraft/h com/mojang/minecraft/Minecraft
-	FIELD A connectionManager Lcom/mojang/minecraft/net/c;
-	FIELD B soundPlayer Lcom/mojang/minecraft/b/i;
-	FIELD C hitResult Lcom/mojang/minecraft/f;
+CLASS com/mojang/minecraft/k com/mojang/minecraft/Minecraft
+	FIELD A soundPlayer Lcom/mojang/minecraft/b/i;
+	FIELD B hitResult Lcom/mojang/minecraft/f;
+	FIELD C options Lcom/mojang/minecraft/j;
 	FIELD D server Ljava/lang/String;
 	FIELD E port I
 	FIELD F running Z
@@ -25,24 +25,24 @@ CLASS com/mojang/minecraft/h com/mojang/minecraft/Minecraft
 	FIELD i parent Ljava/awt/Canvas;
 	FIELD j appletMode Z
 	FIELD k pause Z
-	FIELD l yMouseAxis I
-	FIELD m textures Lcom/mojang/minecraft/a/a;
-	FIELD n font Lcom/mojang/minecraft/c/h;
-	FIELD o editMode I
-	FIELD p screen Lcom/mojang/minecraft/c/k;
-	FIELD q loadingScreen Lcom/mojang/minecraft/g;
-	FIELD r renderHelper Lcom/mojang/minecraft/a/d;
-	FIELD s levelIo Lcom/mojang/minecraft/level/a;
-	FIELD t soundManager Lcom/mojang/minecraft/b/k;
-	FIELD u loadMapUser Ljava/lang/String;
-	FIELD v loadMapId I
-	FIELD w robot Ljava/awt/Robot;
-	FIELD x hud Lcom/mojang/minecraft/c/i;
-	FIELD y hideGui Z
-	FIELD z playerModel Lcom/mojang/minecraft/character/a;
+	FIELD l textures Lcom/mojang/minecraft/a/a;
+	FIELD m font Lcom/mojang/minecraft/c/l;
+	FIELD n editMode I
+	FIELD o screen Lcom/mojang/minecraft/c/o;
+	FIELD p loadingScreen Lcom/mojang/minecraft/h;
+	FIELD q renderHelper Lcom/mojang/minecraft/a/d;
+	FIELD r levelIo Lcom/mojang/minecraft/level/a;
+	FIELD s soundManager Lcom/mojang/minecraft/b/k;
+	FIELD t loadMapUser Ljava/lang/String;
+	FIELD u loadMapId I
+	FIELD v robot Ljava/awt/Robot;
+	FIELD w hud Lcom/mojang/minecraft/c/m;
+	FIELD x hideGui Z
+	FIELD y playerModel Lcom/mojang/minecraft/character/a;
+	FIELD z connectionManager Lcom/mojang/minecraft/net/c;
 	METHOD a destroy ()V
 	METHOD a generateLevel (I)V
-	METHOD a setScreen (Lcom/mojang/minecraft/c/k;)V
+	METHOD a setScreen (Lcom/mojang/minecraft/c/o;)V
 	METHOD a setLevel (Lcom/mojang/minecraft/level/Level;)V
 	METHOD a checkGlError (Ljava/lang/String;)V
 	METHOD a loadLevel (Ljava/lang/String;I)Z

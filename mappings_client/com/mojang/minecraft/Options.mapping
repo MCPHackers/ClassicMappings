@@ -1,0 +1,25 @@
+CLASS com/mojang/minecraft/j com/mojang/minecraft/Options
+	FIELD a music Z
+	FIELD b sound Z
+	FIELD c invertMouse Z
+	FIELD d showFPS Z
+	FIELD e renderDistance I
+	FIELD f forward Lcom/mojang/minecraft/i;
+	FIELD g left Lcom/mojang/minecraft/i;
+	FIELD h back Lcom/mojang/minecraft/i;
+	FIELD i right Lcom/mojang/minecraft/i;
+	FIELD j jump Lcom/mojang/minecraft/i;
+	FIELD k build Lcom/mojang/minecraft/i;
+	FIELD l chat Lcom/mojang/minecraft/i;
+	FIELD m toggleFog Lcom/mojang/minecraft/i;
+	FIELD n save Lcom/mojang/minecraft/i;
+	FIELD o load Lcom/mojang/minecraft/i;
+	FIELD p keyBindings [Lcom/mojang/minecraft/i;
+	FIELD q RENDER_DISTANCES [Ljava/lang/String;
+	FIELD r optionsFile Ljava/io/File;
+	METHOD a loadOptions ()V
+	METHOD a getKeyBinding (I)Ljava/lang/String;
+	METHOD a setKeyBinding (II)V
+	METHOD b saveOptions ()V
+	METHOD b getOption (I)Ljava/lang/String;
+	METHOD b setOption (II)V

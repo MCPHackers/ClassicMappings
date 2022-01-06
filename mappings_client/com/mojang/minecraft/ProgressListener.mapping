@@ -1,6 +1,6 @@
-CLASS com/mojang/minecraft/g com/mojang/minecraft/ProgressListener
+CLASS com/mojang/minecraft/h com/mojang/minecraft/ProgressListener
 	FIELD a title Ljava/lang/String;
-	FIELD b minecraft Lcom/mojang/minecraft/h;
+	FIELD b minecraft Lcom/mojang/minecraft/k;
 	FIELD c text Ljava/lang/String;
 	METHOD a setLoadingProgress (I)V
 	METHOD a beginLevelLoading (Ljava/lang/String;)V

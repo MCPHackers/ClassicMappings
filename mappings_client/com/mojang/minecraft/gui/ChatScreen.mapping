@@ -1,3 +1,3 @@
 CLASS com/mojang/minecraft/c/b com/mojang/minecraft/gui/ChatScreen
-	FIELD f typedMsg Ljava/lang/String;
-	FIELD g counter I
+	FIELD g typedMsg Ljava/lang/String;
+	FIELD h counter I

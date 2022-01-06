@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/c/f com/mojang/minecraft/gui/OptionsScreen
+	FIELD g parent Lcom/mojang/minecraft/c/o;
+	FIELD h title Ljava/lang/String;
+	FIELD j options Lcom/mojang/minecraft/j;

@@ -1,2 +1,2 @@
-CLASS com/mojang/minecraft/i com/mojang/minecraft/OSMap
+CLASS com/mojang/minecraft/g com/mojang/minecraft/OSMap
 	FIELD a osValues [I

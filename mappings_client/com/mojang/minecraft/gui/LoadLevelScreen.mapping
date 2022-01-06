@@ -1,9 +1,9 @@
-CLASS com/mojang/minecraft/c/l com/mojang/minecraft/gui/LoadLevelScreen
-	FIELD f title Ljava/lang/String;
-	FIELD g parent Lcom/mojang/minecraft/c/k;
-	FIELD h finished Z
-	FIELD i loaded Z
-	FIELD j levels [Ljava/lang/String;
-	FIELD k status Ljava/lang/String;
+CLASS com/mojang/minecraft/c/p com/mojang/minecraft/gui/LoadLevelScreen
+	FIELD g title Ljava/lang/String;
+	FIELD h parent Lcom/mojang/minecraft/c/o;
+	FIELD j finished Z
+	FIELD k loaded Z
+	FIELD l levels [Ljava/lang/String;
+	FIELD m status Ljava/lang/String;
 	METHOD a loadLevel (I)V
 	METHOD a setLevels ([Ljava/lang/String;)V

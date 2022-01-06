@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/c/h com/mojang/minecraft/gui/Gui
+	FIELD i zLevel F
+	METHOD a fill (IIIII)V
+	METHOD a fillGradient (IIIIII)V
+	METHOD a drawCenteredString (Lcom/mojang/minecraft/c/l;Ljava/lang/String;III)V
+	METHOD b blit (IIIIII)V
+	METHOD b drawString (Lcom/mojang/minecraft/c/l;Ljava/lang/String;III)V

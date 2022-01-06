@@ -1,6 +1,6 @@
 CLASS com/mojang/minecraft/c/a com/mojang/minecraft/gui/NameLevelScreen
-	FIELD f parent Lcom/mojang/minecraft/c/k;
-	FIELD g title Ljava/lang/String;
-	FIELD h id I
-	FIELD i name Ljava/lang/String;
-	FIELD j counter I
+	FIELD g parent Lcom/mojang/minecraft/c/o;
+	FIELD h title Ljava/lang/String;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l counter I

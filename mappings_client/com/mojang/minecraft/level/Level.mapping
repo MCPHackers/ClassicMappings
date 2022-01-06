@@ -4,8 +4,9 @@ CLASS com/mojang/minecraft/level/Level
 	FIELD c random Ljava/util/Random;
 	FIELD d randValue I
 	FIELD e tickList Ljava/util/ArrayList;
-	FIELD rendererContext$5cd64a7f rendererContext Lcom/mojang/minecraft/h;
+	FIELD rendererContext$5cd64a7f rendererContext Lcom/mojang/minecraft/k;
 	METHOD a isSolidTile (FFF)Z
 	METHOD a isInLevelBounds (III)Z
+	METHOD a updateNeighborAt (IIII)V
 	METHOD addListener$74652038 addListener (Lcom/mojang/minecraft/a/g;)V
 	METHOD removeListener$74652038 removeListener (Lcom/mojang/minecraft/a/g;)V
